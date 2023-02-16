@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="keywords" content="Couple name, WE ARE GETTING MARRIED, Couple name, WE ARE GETTING MARRIED, couple name, 72, 100, 87, Photoshoots, Join us on ourBig Day">
     <meta name="description" content="">
-    <title>{{$username}} </title>
+    <title>{{$couplename}} </title>
     <link rel="stylesheet" href="/css/nicepage.css" media="screen">
 <link rel="stylesheet" href="/css/ContentPage.css" media="screen">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -61,7 +61,7 @@
                         <a href="#" class="u-border-none u-btn u-btn-round u-btn-submit u-button-style u-palette-3-base u-radius-10 u-text-white u-btn-1">Submit</a>
                         <input type="submit" value="submit" class="u-form-control-hidden">
                       </div>
-                    
+                
                     </form>
 
                   </div>

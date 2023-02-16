@@ -2,16 +2,20 @@
 
 namespace App\Http\Controllers;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 use Illuminate\Foundation\Bus\DispatchesJobs;
 use Illuminate\Foundation\Validation\ValidatesRequests;
 use Illuminate\Routing\Controller as BaseController;
 use App\Models\guest;
+use App\Http\Controller\guestsController;
+use App\Http\Controllers\guestsController as ControllersGuestsController;
+
 class Controller extends BaseController
 {
     use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
-    public function ContentPage(Request $req){
-        $data = new guest();
+    public function ContentPage(){
+        
    
 
       
@@ -33,6 +37,7 @@ class Controller extends BaseController
         return view('ContentPage',$couple);
     }
     public function ContactPage(){
+        //$data = DB::select('select email from guests');
         $couple = [
             'couplename' => 'Jenna & James',
             'Groom' => 'James',
