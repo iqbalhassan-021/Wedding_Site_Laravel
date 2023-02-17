@@ -4,7 +4,13 @@
     <meta charset="utf-8">
     <meta name="keywords" content="Couple name, WE ARE GETTING MARRIED, Couple name, WE ARE GETTING MARRIED, couple name, 72, 100, 87, Photoshoots, Join us on ourBig Day">
     <meta name="description" content="">
-    <title>{{$couplename}} </title>
+    <?php
+    foreach($list as $item){
+      $CoupleName[] = $item->CoupleName;
+  }
+    end($CoupleName);
+    ?>
+    <title><?php echo end($CoupleName);?></title>
     <link rel="stylesheet" href="/css/nicepage.css" media="screen">
     <link rel="stylesheet" href="/css/blog.css" media="screen">
     <link rel="stylesheet" href="/css/ContentPage.css" media="screen">
@@ -28,7 +34,7 @@
   </head>
   <body>
   <div class="topnav" id="myTopnav">
-    <a href="{{url('ContentPage')}}">{{$couplename}}</a>
+    <a href="{{url('ContentPage')}}"><?php echo end($CoupleName);?></a>
     <a href="{{url('ContentPage')}}" >Home</a>
     <a href="#" onclick="dispPhotos()">Photos</a>
     <a href="#" onclick="dispOurStory()">Our Story</a>

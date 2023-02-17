@@ -1,6 +1,11 @@
-@include('Groom&Bride')
+<?php
+    foreach($list as $item){
+    $CoupleName[] = $item->CoupleName;}
+    end($CoupleName);
+    ?>
+@include('Slider')
 <div class="topnav" id="myTopnav">
-    <a href="{{url('ContentPage')}}" class="active">{{$couplename}}</a>
+    <a href="{{url('ContentPage')}}" class="active"><?php echo end($CoupleName);?></a>
     <a href="{{url('ContentPage')}}" >Home</a>
     <a href="{{url('ContentPage')}}">Date</a>
     <a href="{{url('ContentPage')}}">Photos</a>

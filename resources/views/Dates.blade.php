@@ -5,7 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.00, maximum-scale=2.00, minimum-scale=1.00" user-scalable=no">
     <meta name="keywords" content="Couple name, WE ARE GETTING MARRIED, Couple name, WE ARE GETTING MARRIED, couple name, 72, 100, 87, Photoshoots, Join us on ourBig Day">
     <meta name="description" content="">
-    <title>{{$couplename}} </title>
+    <?php
+    foreach($list as $item){
+    
+      $day = $item->Day;
+      $month = $item->Month;
+      $year = $item->Year;
+
+  }
+  
+    ?>
+    
     <link rel="stylesheet" href="/css/nicepage.css" media="screen">
     <link rel="stylesheet" href="/css/ContentPage.css" media="screen">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -33,19 +43,19 @@
           <div class="u-repeater u-repeater-1">
             <div class="u-align-center u-container-style u-list-item u-repeater-item">
               <div class="u-container-layout u-similar-container u-valign-middle u-container-layout-1">
-                <h1 class="u-text u-text-default u-text-palette-3-base u-title u-text-1" data-animation-name="counter" data-animation-event="scroll" data-animation-duration="3000">{{$day}}</h1>
+                <h1 class="u-text u-text-default u-text-palette-3-base u-title u-text-1" data-animation-name="counter" data-animation-event="scroll" data-animation-duration="3000"><?php echo $day ?> </h1>
                 <p class="u-align-center u-text u-text-white u-text-2">DAY </p>
               </div>
             </div>
             <div class="u-align-center u-container-style u-list-item u-repeater-item">
               <div class="u-container-layout u-similar-container u-valign-middle u-container-layout-2">
-                <h1 class="u-text u-text-default u-text-palette-3-base u-title u-text-3" data-animation-name="counter" data-animation-event="scroll" data-animation-duration="3000">{{$month}}</h1>
+                <h1 class="u-text u-text-default u-text-palette-3-base u-title u-text-3" data-animation-name="counter" data-animation-event="scroll" data-animation-duration="3000"><?php echo $month ?></h1>
                 <p class="u-align-center u-text u-text-default u-text-white u-text-4">MONTH </p>
               </div>
             </div>
             <div class="u-align-center u-container-style u-list-item u-repeater-item">
               <div class="u-container-layout u-similar-container u-valign-middle u-container-layout-3">
-                <h1 class="u-text u-text-default u-text-palette-3-base u-title u-text-5" data-animation-name="counter" data-animation-event="scroll" data-animation-duration="3000">{{$year}}</h1>
+                <h1 class="u-text u-text-default u-text-palette-3-base u-title u-text-5" data-animation-name="counter" data-animation-event="scroll" data-animation-duration="3000"><?php echo $year ?></h1>
                 <p class="u-align-center u-text u-text-default u-text-white u-text-6">YEAR</p>
               </div>
             </div>

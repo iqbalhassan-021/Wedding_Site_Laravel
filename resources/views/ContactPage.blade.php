@@ -1,6 +1,16 @@
+<head>
+<?php
+    foreach($list as $item){
+      $CoupleName[] = $item->CoupleName;
+  }
+ 
+    end($CoupleName);
+    ?>
+    <title><?php echo end($CoupleName);?></title>
+</head>
 @include('Contactform')
     <div class="topnav" id="myTopnav">
-    <a href="{{url('ContentPage')}}">{{$couplename}}</a>
+    <a href="{{url('ContentPage')}}"><?php echo end($CoupleName);?></a>
     <a href="{{url('ContentPage')}}" >Home</a>
     <a href="{{url('ContentPage')}}">Date</a>
     <a href="{{url('ContentPage')}}">Photos</a>
@@ -11,4 +21,3 @@
     <a href="javascript:void(0);" class="icon" onclick="myFunction()">
     <i class="fa fa-bars"></i>
   </a>
-    </div>

@@ -5,7 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.00, maximum-scale=2.00, minimum-scale=1.00" user-scalable=no">
     <meta name="keywords" content="Couple name, WE ARE GETTING MARRIED, Couple name, WE ARE GETTING MARRIED, couple name, 72, 100, 87, Photoshoots, Join us on ourBig Day">
     <meta name="description" content="">
-    <title>{{$couplename}} </title>
+    <?php
+    foreach($list as $item){
+    
+      $firstMet = $item->FirstMet;
+      $fdate = $item->DATE;
+      $proposal = $item->Proposal;
+  }
+    ?>
+    <title></title>
     <link rel="stylesheet" href="/css/nicepage.css" media="screen">
     <link rel="stylesheet" href="/css/ContentPage.css" media="screen">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -34,21 +42,21 @@
             <div class="u-container-layout u-similar-container u-valign-top u-container-layout-1" style="overflow: auto;">
               <img alt="" class="u-expanded-width u-hover-feature u-image u-image-round u-radius-7 u-image-2" data-image-width="720" data-image-height="490" src="/images/img-3.jpg" data-animation-name="customAnimationIn" data-animation-duration="1000">
               <h3 class="u-custom-font u-font-oswald u-text u-text-default u-text-palette-3-base u-text-1"> First Met</h3>
-              <p class="u-text u-text-default u-text-2">{{$firstmet}} </p>
+              <p class="u-text u-text-default u-text-2"><?php echo $firstMet?> </p>
             </div>
           </div>
           <div class="u-container-style u-list-item u-repeater-item u-white u-list-item-2" data-animation-name="pulse" data-animation-duration="1000" data-animation-direction="">
             <div class="u-container-layout u-similar-container u-valign-top u-container-layout-2" style="overflow: auto;">
               <img alt="" class="u-expanded-width u-hover-feature u-image u-image-round u-radius-7 u-image-3" data-image-width="1536" data-image-height="1920" src="images/pexels-studio-negarin-3650469.jpg" data-animation-name="customAnimationIn" data-animation-duration="1000">
               <h3 class="u-custom-font u-font-oswald u-text u-text-default u-text-palette-3-base u-text-3">First Date</h3>
-              <p class="u-text u-text-default u-text-4">{{$date}} </p>
+              <p class="u-text u-text-default u-text-4"><?php echo $fdate;?> </p>
             </div>
           </div>
           <div class="u-container-style u-list-item u-repeater-item u-video-cover u-white u-list-item-3" data-animation-name="pulse" data-animation-duration="1000" data-animation-direction="">
-            <div class="u-container-layout u-similar-container u-valign-top u-container-layout-3" style="overflow: auto;">
+            <div class="u-container-layout u-similar-container u-valign-top u-container-layout-3" style="overflow: scroll;">
               <img alt="" class="u-expanded-width u-hover-feature u-image u-image-round u-radius-7 u-image-4" data-image-width="440" data-image-height="300" src="images/img-5.jpg" data-animation-name="customAnimationIn" data-animation-duration="1000">
               <h3 class="u-custom-font u-font-oswald u-text u-text-default u-text-palette-3-base u-text-5">Proposal</h3>
-              <p class="u-text u-text-default u-text-6">{{$proposal}} </p>
+              <p class="u-text u-text-default u-text-6"><?php echo $proposal?> </p>
             </div>
           </div>
         </div>

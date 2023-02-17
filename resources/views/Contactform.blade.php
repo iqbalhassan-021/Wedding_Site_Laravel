@@ -4,7 +4,18 @@
     <meta charset="utf-8">
     <meta name="keywords" content="Couple name, WE ARE GETTING MARRIED, Couple name, WE ARE GETTING MARRIED, couple name, 72, 100, 87, Photoshoots, Join us on ourBig Day">
     <meta name="description" content="">
-    <title>{{$couplename}} </title>
+    <?php
+    foreach($list as $item){
+      $CoupleName[] = $item->CoupleName;
+
+
+  }
+   // end($textaboutGroom);
+   // end($textaboutBride);
+  
+    end($CoupleName);
+    ?>
+    <title><?php echo end($CoupleName);?></title>
     <link rel="stylesheet" href="/css/nicepage.css" media="screen">
 <link rel="stylesheet" href="/css/ContentPage.css" media="screen">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -32,22 +43,22 @@
             <div class="u-layout-row">
               <div class="u-container-align-left u-container-style u-layout-cell u-size-30 u-layout-cell-1">
                 <div class="u-container-layout u-valign-middle u-container-layout-1">
-                  <h3 class="u-align-left u-custom-font u-font-montserrat u-text u-text-default u-text-palette-3-base u-text-1">{{$couplename}} </h3>
+                  <h3 class="u-align-left u-custom-font u-font-montserrat u-text u-text-default u-text-palette-3-base u-text-1"><?php echo end($CoupleName);?></h3>
                 </div>
               </div>
               <div class="u-align-left u-container-style u-layout-cell u-size-30 u-layout-cell-2" data-animation-name="zoomIn" data-animation-duration="1750" data-animation-direction="">
                 <div class="u-container-layout u-valign-middle-xl u-container-layout-2">
                   <div class="u-form u-radius-5 u-white u-form-1">
 
-                    <form  method="POST" action="ContactPage" class="u-clearfix u-form-spacing-36 u-form-vertical u-inner-form"   style="padding: 31px;height:80%;">
+                    <form  method="POST" action="ContactPage" class="u-clearfix u-form-spacing-36 u-form-vertical u-inner-form"   style="padding: 31px;height:100%;">
                     @csrf
                     <div class="u-form-group u-form-name">
                         <label for="name-2137" class="u-form-control-hidden u-label"></label>
-                        <input type="text" placeholder="Enter your Name" id="name-2137" name="username" class="u-grey-5 u-input u-input-rectangle u-radius-10" required="">
+                        <input type="text" placeholder="Enter your Name" id="name-2137" name="username" class="u-grey-5 u-input u-input-rectangle u-radius-10" required="" >
                       </div>
                       <div class="u-form-email u-form-group">
                         <label for="email-2137" class="u-form-control-hidden u-label"></label>
-                        <input type="email" placeholder="Enter a valid email address" id="email-2137" name="email" class="u-grey-5 u-input u-input-rectangle u-radius-10" required="">
+                        <input type="email" placeholder="Enter a valid email address" id="email-2137" name="email" class="u-grey-5 u-input u-input-rectangle u-radius-10" required="" >
                       </div>
                       <div class="u-form-group u-form-group-3">
                         <label for="text-d56d" class="u-label"></label>
@@ -55,13 +66,13 @@
                       </div>
                       <div class="u-form-group u-form-group-3">
                         <label for="text-d56d" class="u-label"></label>
-                        <input type="text" placeholder="Address" id="text-d56d" name="address" class="u-grey-5 u-input u-input-rectangle u-radius-10" required="required">
+                        <input type="text" placeholder="Address" id="text-d56d" name="address" class="u-grey-5 u-input u-input-rectangle u-radius-10" required="required" >
                       </div>
                       <div class="u-align-left u-form-group u-form-submit">
                         <a href="#" class="u-border-none u-btn u-btn-round u-btn-submit u-button-style u-palette-3-base u-radius-10 u-text-white u-btn-1">Submit</a>
-                        <input type="submit" value="submit" class="u-form-control-hidden">
+                        <input type="submit" value="submit" class="u-form-control-hidden" name="submit_btn">
                       </div>
-                
+           
                     </form>
 
                   </div>
@@ -72,4 +83,5 @@
         </div>
       </div>
     </section>
+
     </body></html>
