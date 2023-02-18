@@ -41,7 +41,7 @@
                 <div class="u-container-layout u-valign-middle u-container-layout-1">
                   <h2 class="u-align-center u-text u-text-default u-text-1">Wedding Destination</h2>
                   <p class="u-align-center u-text u-text-2"><?php echo end($dest);?></p>
-                  <a href="#" class="u-border-none u-btn u-btn-round u-button-style u-palette-3-base u-radius-50 u-text-white u-btn-1" data-animation-name="customAnimationIn" data-animation-duration="1000">learn more</a>
+                  <a href="#" class="u-border-none u-btn u-btn-round u-button-style u-palette-3-base u-radius-50 u-text-white u-btn-1" data-animation-name="customAnimationIn" data-animation-duration="1000" style="color:#50C878;">learn more</a>
                 </div>
               </div>
               <div class="u-align-center u-container-style u-image u-layout-cell u-right-cell u-size-30 u-size-xs-60 u-image-1" src="" data-image-width="1980" data-image-height="1320" data-animation-name="customAnimationIn" data-animation-duration="1000">

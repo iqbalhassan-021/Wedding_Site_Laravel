@@ -10,7 +10,7 @@
 </head>
 @include('Contactform')
     <div class="topnav" id="myTopnav">
-    <a href="{{url('ContentPage')}}"><?php echo end($CoupleName);?></a>
+    <a href="{{url('ContentPage')}}" style="color: green;font-family: 'Brush Script MT', cursive;"><?php echo end($CoupleName);?></a>
     <a href="{{url('ContentPage')}}" >Home</a>
     <a href="{{url('ContentPage')}}">Date</a>
     <a href="{{url('ContentPage')}}">Photos</a>

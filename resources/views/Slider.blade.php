@@ -27,6 +27,7 @@
 		"@type": "Organization",
 		"name": ""
 }</script>
+
     <meta name="theme-color" content="#478ac9">
     <meta property="og:title" content="Home">
     <meta property="og:type" content="website">
@@ -45,7 +46,8 @@
             <div class="u-container-layout u-valign-middle u-container-layout-1" style="height: 100vh;">
               <h2 class="u-text u-text-palette-3-base u-text-1" data-animation-name="customAnimationIn" data-animation-duration="1000" data-animation-direction=""><?php echo end($CoupleName);?></h2>
               <h2 class="u-text u-text-2" data-animation-name="customAnimationIn" data-animation-duration="1000">WE ARE GETTING MARRIED</h2>
-              <a href="{{url('ContentPage')}}" class="u-border-none u-btn u-btn-round u-button-style u-hover-palette-3-base u-radius-50 u-text-hover-white u-white u-btn-1" data-animation-name="pulse" data-animation-duration="1000" data-animation-direction="">Explore</a>
+              <a href="{{url('ContentPage')}}" class="u-border-none u-btn u-btn-round u-button-style u-hover-palette-3-base u-radius-50 u-text-hover-white u-white u-btn-1" data-animation-name="pulse" data-animation-duration="1000" data-animation-direction=""> Explore</a>
+         
             </div>
           </div>
           <div class="u-align-center u-carousel-item u-container-style u-image u-shading u-slide u-image-2" data-image-width="667" data-image-height="370">
@@ -70,6 +72,7 @@
           </span>
           <span class="sr-only">+Next</span>
         </a>
+        
       </div>
     </section>
 

@@ -85,3 +85,5 @@
     margin-left: initial;
   }
 }
+@media (min-width: 768px) {.u-section-3{ height: 100vh;} } 
+  

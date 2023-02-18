@@ -34,34 +34,34 @@
     <meta property="og:type" content="website">
   </head>
   <body class="u-body u-xl-mode" data-lang="en">
-  <section class="u-align-left u-clearfix u-container-align-center u-section-6" src="" id="carousel_7fc0">
+  <section class="u-align-left u-clearfix u-container-align-center u-section-6" src="" id="carousel_7fc0" >
       <img class="u-expanded-width u-image u-image-1" src="images/pexels-pixabay-265722.jpg" data-image-width="1280" data-image-height="1920">
       <div class="u-list u-list-1">
         <div class="u-repeater u-repeater-1">
           <div class="u-container-style u-list-item u-repeater-item u-video-cover u-white u-list-item-1" data-animation-name="pulse" data-animation-duration="1000" data-animation-direction="">
-            <div class="u-container-layout u-similar-container u-valign-top u-container-layout-1" style="overflow: auto;">
+            <div id="over" class="u-container-layout u-similar-container u-valign-top u-container-layout-1">
               <img alt="" class="u-expanded-width u-hover-feature u-image u-image-round u-radius-7 u-image-2" data-image-width="720" data-image-height="490" src="/images/img-3.jpg" data-animation-name="customAnimationIn" data-animation-duration="1000">
-              <h3 class="u-custom-font u-font-oswald u-text u-text-default u-text-palette-3-base u-text-1"> First Met</h3>
-              <p class="u-text u-text-default u-text-2"><?php echo $firstMet?> </p>
+              <h3 class="u-custom-font u-font-oswald u-text u-text-default u-text-palette-3-base u-text-1"  id="fmet"> First Met</h3>
+           <p class="u-text u-text-default u-text-2"   style="overflow: auto; text-overflow: ellipsis;"><?php echo $firstMet?> </p>
             </div>
           </div>
-          <div class="u-container-style u-list-item u-repeater-item u-white u-list-item-2" data-animation-name="pulse" data-animation-duration="1000" data-animation-direction="">
-            <div class="u-container-layout u-similar-container u-valign-top u-container-layout-2" style="overflow: auto;">
+          <div id="over" class="u-container-style u-list-item u-repeater-item u-white u-list-item-2" data-animation-name="pulse" data-animation-duration="1000" data-animation-direction="">
+            <div class="u-container-layout u-similar-container u-valign-top u-container-layout-2" style="overflow: scroll;">
               <img alt="" class="u-expanded-width u-hover-feature u-image u-image-round u-radius-7 u-image-3" data-image-width="1536" data-image-height="1920" src="images/pexels-studio-negarin-3650469.jpg" data-animation-name="customAnimationIn" data-animation-duration="1000">
-              <h3 class="u-custom-font u-font-oswald u-text u-text-default u-text-palette-3-base u-text-3">First Date</h3>
-              <p class="u-text u-text-default u-text-4"><?php echo $fdate;?> </p>
+              <h3 class="u-custom-font u-font-oswald u-text u-text-default u-text-palette-3-base u-text-3" id="fmet" >First Date</h3>
+              <p class="u-text u-text-default u-text-4" style="overflow: auto;" ><?php echo $fdate;?> </p>
             </div>
           </div>
-          <div class="u-container-style u-list-item u-repeater-item u-video-cover u-white u-list-item-3" data-animation-name="pulse" data-animation-duration="1000" data-animation-direction="">
+          <div id="over" class="u-container-style u-list-item u-repeater-item u-video-cover u-white u-list-item-3" data-animation-name="pulse" data-animation-duration="1000" data-animation-direction="">
             <div class="u-container-layout u-similar-container u-valign-top u-container-layout-3" style="overflow: scroll;">
               <img alt="" class="u-expanded-width u-hover-feature u-image u-image-round u-radius-7 u-image-4" data-image-width="440" data-image-height="300" src="images/img-5.jpg" data-animation-name="customAnimationIn" data-animation-duration="1000">
-              <h3 class="u-custom-font u-font-oswald u-text u-text-default u-text-palette-3-base u-text-5">Proposal</h3>
-              <p class="u-text u-text-default u-text-6"><?php echo $proposal?> </p>
+              <h3 class="u-custom-font u-font-oswald u-text u-text-default u-text-palette-3-base u-text-5"  id="fmet">Proposal</h3>
+              <p class="u-text u-text-default u-text-6" style="overflow: auto;"><?php echo $proposal?> </p>
             </div>
           </div>
         </div>
       </div>
-      <h2 class="u-text u-text-default u-text-palette-3-base u-text-7">OUR LOVE STORY</h2>
+    
       
       
       

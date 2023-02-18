@@ -150,3 +150,11 @@
     height: 278px;
   }
 }
+@media (min-width: 768px) {
+
+ 
+  .u-section-3{
+    height: 100vh;
+  }
+  } 
+  

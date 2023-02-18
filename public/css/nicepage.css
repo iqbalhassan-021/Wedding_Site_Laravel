@@ -1,8 +1,18 @@
-/*begin-commonstyles library*//*!
- * froala_editor v4.0.6 (https://www.froala.com/wysiwyg-editor)
- * License https://froala.com/wysiwyg-editor/terms/
- * Copyright 2014-2021 Froala Labs
- */
+
+.u-section-3{
+  height: 100vh;
+}
+
+.brideText{
+  color: green;
+}
+
+.u-btn-1{
+  background-color:  #50C878;
+}
+.u-text-1{
+  color: #50C878;
+}
 
 .fr-clearfix::after {
   clear: both;
@@ -37930,3 +37940,26 @@ a.u-link.u-text-hover-grey-90:hover {
  /*begin-variables base-font-size*/ 
  html { font-size: 16px; }
  /*end-variables base-font-size*/
+ @media (min-width: 768px) {
+
+ 
+.u-section-3{
+  height: 100vh;
+}
+} 
+.brideText{
+  color: green;
+}
+
+.u-btn-1{
+  background-color:  #50C878;
+}
+.u-text-1{
+  color: black;
+}
+.u-container-layout a{
+  color: #50C878;
+ }
+#fmet{
+  color: #50C878;
+}
