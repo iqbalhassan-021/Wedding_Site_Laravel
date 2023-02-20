@@ -28,7 +28,8 @@
   <body class="u-body u-xl-mode" data-lang="en">
   <section class="u-align-center u-clearfix u-section-5" id="sec-036b">
       <div class="u-clearfix u-sheet u-sheet-1">
-        <h2 class="u-text u-text-default u-text-palette-3-base u-text-1">PHOTOS</h2>
+        <h2 class="" style="color: #50C878;">PHOTOS</h2>
+        <img src="/images/clipart1.png" class="clipart" alt="">
         <div class="u-expanded-width u-gallery u-layout-grid u-lightbox u-show-text-on-hover u-gallery-1">
           <div class="u-gallery-inner u-gallery-inner-1">
             <div class="u-effect-fade u-effect-hover-zoom u-gallery-item">

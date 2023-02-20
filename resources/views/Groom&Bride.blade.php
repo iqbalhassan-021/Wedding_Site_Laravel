@@ -48,8 +48,9 @@
           <div class="u-layout">
             <div class="u-layout-row">
               <div class="u-align-left u-container-style u-layout-cell u-left-cell u-size-40 u-layout-cell-1">
-                <div class="u-container-layout u-valign-middle u-container-layout-1" style="overflow: auto;">
-                  <h2 class="u-text u-text-default u-text-palette-3-base u-text-1" style="color: green;"><?php echo end($groom);?></h2>
+                <div class="u-container-layout u-valign-middle u-container-layout-1" style="overflow: auto; background-image:url('/images/clipart.png');background-size:cover;background-repeat:no-repeat;background-position:center;">
+                  <h2 class="" style="color: #50C878;"><?php echo end($groom);?></h2>
+                  <img src="/images/clipart1.png" class="clipart" alt="">
                   <p id="grrom" class="u-text u-text-2"><?php echo $textaboutGroom;?></p>
                 </div>
               </div>
@@ -70,8 +71,9 @@
                 <div class="u-container-layout u-container-layout-1"></div>
               </div>
               <div class="u-align-left u-container-style u-layout-cell u-left-cell u-size-40 u-layout-cell-2">
-                <div class="u-container-layout u-valign-middle u-container-layout-2" style="overflow: auto;">
-                  <h2 class="u-text u-text-default u-text-palette-3-base u-text-1 brideText"><?php echo end($bride);?></h2>
+                <div class="u-container-layout u-valign-middle u-container-layout-2" style="overflow: auto; background-image:url('/images/clipart.png');background-size:cover;background-repeat:no-repeat;background-position:center;">
+                  <h2 class="" style="color: #50C878;"><?php echo end($bride);?></h2>
+                  <img src="/images/clipart1.png" class="clipart" alt="">
                   <p class="u-text u-text-2"><?php echo $textaboutBride;?></p>
                 </div>
               </div>

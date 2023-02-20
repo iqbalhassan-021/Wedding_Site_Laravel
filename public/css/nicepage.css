@@ -35311,7 +35311,7 @@ a.u-button-style.u-button-style.u-text-palette-3-base:active,
 a.u-button-style.u-button-style.u-text-palette-3-base[class*="u-border-"]:active,
 a.u-button-style.u-button-style.u-text-palette-3-base.active,
 a.u-button-style.u-button-style.u-text-palette-3-base[class*="u-border-"].active {
-  color: #d9b10d !important;
+  color: #50C878 !important;
 }
 a.u-button-style:hover > .u-text-hover-palette-3-base,
 a.u-button-style:hover > .u-text-hover-palette-3-base[class*="u-border-"],
@@ -37961,5 +37961,11 @@ a.u-link.u-text-hover-grey-90:hover {
   color: #50C878;
  }
 #fmet{
+  color: #50C878;
+}
+.u-text-palette-3-base{
+  color: #50C878;
+}
+h2.u-text-palette-3-base{
   color: #50C878;
 }

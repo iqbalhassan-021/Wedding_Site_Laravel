@@ -41,8 +41,8 @@
           <li data-u-target="#carousel-bd35" class="u-active u-grey-30" data-u-slide-to="0"></li>
           <li data-u-target="#carousel-bd35" class="u-grey-30" data-u-slide-to="1"></li>
         </ol>
-        <div class="u-carousel-inner" role="listbox" style="height: 100vh;">
-          <div style="height: 100vh;" class="u-active u-align-center u-carousel-item u-container-style u-image u-shading u-slide u-image-1" data-image-width="1920" data-image-height="1013">
+        <div class="u-carousel-inner" role="listbox" style="height: 100vh;text-align:center;">
+          <div style="height: 100vh;text-align:center;" class="u-active u-align-center u-carousel-item u-container-style u-image u-shading u-slide u-image-1" data-image-width="1920" data-image-height="1013">
             <div class="u-container-layout u-valign-middle u-container-layout-1" style="height: 100vh;">
               <h2 class="u-text u-text-palette-3-base u-text-1" data-animation-name="customAnimationIn" data-animation-duration="1000" data-animation-direction=""><?php echo end($CoupleName);?></h2>
               <h2 class="u-text u-text-2" data-animation-name="customAnimationIn" data-animation-duration="1000">WE ARE GETTING MARRIED</h2>
