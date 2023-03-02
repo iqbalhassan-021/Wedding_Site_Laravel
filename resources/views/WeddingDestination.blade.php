@@ -32,7 +32,7 @@
     <meta property="og:type" content="website">
   </head>
   <body class="u-body u-xl-mode" data-lang="en">
-  <section class="u-clearfix u-grey-5 u-section-7" id="sec-cb8d">
+  <section class="u-clearfix u-grey-5 u-section-7" id="sec-cb8d" style="background-color: white;">
       <div class="u-clearfix u-sheet u-sheet-1">
         <div class="u-clearfix u-expanded-width u-gutter-10 u-layout-wrap u-layout-wrap-1">
           <div class="u-layout" style="">

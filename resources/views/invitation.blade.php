@@ -2,23 +2,19 @@
 <html style="font-size: 16px;" lang="en"><head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.00, maximum-scale=2.00, minimum-scale=1.00" user-scalable=no">
     <meta name="keywords" content="Couple name, WE ARE GETTING MARRIED, Couple name, WE ARE GETTING MARRIED, couple name, 72, 100, 87, Photoshoots, Join us on ourBig Day">
     <meta name="description" content="">
     <?php
     foreach($list as $item){
-      $CoupleName[] = $item->CoupleName;
-
-
+    
+      $couplename[] = $item->CoupleName;
+      
   }
-   // end($textaboutGroom);
-   // end($textaboutBride);
-  
-    end($CoupleName);
     ?>
-    <title><?php echo end($CoupleName);?></title>
     <link rel="stylesheet" href="/css/style.css" media="screen">
-
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script class="u-script" type="text/javascript" src="/js/jquery.js" "="" defer=""></script>
     <script class="u-script" type="text/javascript" src="/js/nicepage.js" "="" defer=""></script>
     <script class="u-script" type="text/javascript" src="/js/nav.js" "="" defer=""></script>
@@ -35,30 +31,17 @@
     <meta property="og:title" content="Home">
     <meta property="og:type" content="website">
   </head>
-<body>
-
-<div class="contactform">
-  <div class="contactfromleft"></div>
-  <div class="contactformright">
-    <h1><?php echo end($CoupleName);?></h1>
-
-    <div class="formcontainer">
-      <form action="ContactPage" method="POST">
-        @csrf
-        <input type="text" id="fname" name="username" placeholder="Your Name">
-    
-        <input type="text" id="lname" name="phonen" placeholder="Your Address">
+  <body class="u-body u-xl-mode" data-lang="en">
   
-        <input type="text" id="fname" name="number_of_guests" placeholder="Number of Guests">
+  <div class="invitation">
+  <div class="invitationHolder">
+    <div class="ivitayionimgContainer"></div>
     
-        <input type="text" id="lname" name="address" placeholder="Your Phone Number">
-  
-        <input type="submit" value="Submit">
-      </form>
+    <div class="theinvitation">
+      <h1><?php echo end($couplename); ?></h1>
+      <p>Join us on our big day</p>
+      <a href="{{url('ContactPage')}}"><button>Join Us</button></a>
     </div>
-    
-    
   </div>
 </div>
-</body>
-</html>
+  </body></html>

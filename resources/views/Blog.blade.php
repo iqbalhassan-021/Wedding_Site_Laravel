@@ -39,6 +39,7 @@
     <a href="#" onclick="dispPhotos()">Photos</a>
     <a href="#" onclick="dispOurStory()">Our Story</a>
     <a href="{{url('ContactPage')}}" >Contact</a>
+    <a href="{{url('Guests')}}" >Guests</a>
     <a href="#" onclick="dispAbout()" >About</a>
     <a href="javascript:void(0);" class="icon" onclick="myFunction()">
     <i class="fa fa-bars"></i>

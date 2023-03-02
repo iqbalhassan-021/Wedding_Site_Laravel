@@ -13,5 +13,8 @@ Route::get('ContactPage', [Controller::class,'ContactPage']);
 Route::POST('ContactPage',[guestsController::class,'newGuest']);
 Route::get('showData',[Controller::class,'ContentPage']);
 Route::get('Blog', [Controller::class,'Blog']);
+
+
+Route::get('Guests', [Controller::class,'Guests']);
 Route::get('AdminPage', [Controller::class,'AdminPage']);
 Route::POST('AddCouple',[CoupleData::class,'newCouple']);

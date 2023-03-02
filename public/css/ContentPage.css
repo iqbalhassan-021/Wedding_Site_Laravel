@@ -1166,8 +1166,9 @@
   .u-section-8 .u-form-1 {
     width: 320px;
   }
-} .u-section-9 {
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("/images/wedding-couple-mountains-bride-groom-standing-hill_152637-534.jpg");
+}
+ .u-section-9 {
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("/images/clip3.png");
   background-position: 50% 50%;
 }
 
@@ -1326,23 +1327,28 @@
 
 
 .topnav {
-  
+  height: 70px;
   overflow: auto;
   display:flex;
   justify-content:center;
-  align-items:cener;
+  align-items:center;
   flex-direction:row;
   background-color: white;
+ box-shadow: 0px 5px 30px silver;
 }
-
+.topnav a:nth-child(1){
+  margin-right: 100px;
+  font-size: 32px;
+}
 .topnav a {
-  float: left;
+
+
   display: block;
   color: black;
   text-align: center;
-  padding: 14px 16px;
+  margin-left: 40px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 22px;
 }
 
 .topnav a:hover {
@@ -1351,13 +1357,14 @@
 }
 
 .topnav a.active {
-  background-color:  #50C878;
-  color: white;
+ border-bottom: #50C878 3px solid;
+  color: black;
 }
 
 .topnav .icon {
   display: none;
 }
+
 
 @media screen and (max-width: 600px) {
   .topnav{
@@ -1368,6 +1375,10 @@
     float: right;
     display: block;
  
+  }
+  .topnav a:nth-child(1){
+    margin-right: 0px;
+    font-size: 32px;
   }
 }
 
@@ -1383,6 +1394,16 @@
     display: block;
     text-align: left;
     
+  }
+}
+@media all and (max-width: 768px){
+  .topnav a:nth-child(1){
+    margin-right: 0px;
+    font-size: 16px;
+  }
+  .topnav a{
+    margin-right: 10px;
+    font-size: 12px;
   }
 }
 .u-section-6{
@@ -1420,6 +1441,7 @@
   border: none;
   outline: none;
   background-color:  #50C878;
+
   color: white;
   cursor: pointer;
   padding: 15px;
@@ -1476,15 +1498,155 @@
 
 }
 .topnav a{
-  color: #50C878;
+  color: black;
+  font-family: "Dosis", sans-serif;
 }
 .u-text-palette-3-base{
   color: #50C878;
 }
 
 .clipart{
-  margin-top: -40px;
-  height:50px;
-  width: 200px;
+margin-left: -45px;
+  margin-top: -70px;
+  height:76px;
+  width: 56px;
+
+  
 
 }
+.u-section-3 {
+    height: 65vh;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Timercontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+  height: 50vh;
+  
+  background-image: url("/images/pngwing.com.png");
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #333;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.Timercontainer h1 {
+  color:#50C878;
+  font-weight: normal;
+  letter-spacing: .125rem;
+  text-transform: uppercase;
+}
+
+.Timercontainer li {
+  color:gray;
+  display: inline-block;
+  font-size: 1.5em;
+  list-style-type: none;
+  padding: 1em;
+  text-transform: uppercase;
+}
+
+@media all and (max-width: 768px) {
+  .Timercontainer{
+    height: 85vh;
+  }
+.Timercontainer  h1 {
+    font-size: calc(1.5rem * var(--smaller));
+  }
+  
+ .Timercontainer li {
+    font-size: calc(1.125rem * var(--smaller));
+  }
+  
+.Timercontainer  li span {
+    font-size: calc(3.375rem * var(--smaller));
+  }
+
+}
+
+
+
+
+
+
+.u-section-6 {
+  height: 150vh;
+}
+
+.u-section-9 {
+  background-image:url("/images/clip2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:contain;
+}
+.u-border-2{
+  color: black;
+}
+
+.getingthere{
+  height: 60vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  background-color: #50C878;
+}
+.getingthere h1{
+  color: white;
+}
+.getingthere p{
+  color: white;
+  margin-top: 50px;
+  width: 55%;
+  text-align: center;
+}
+
+@media (max-width: 414px) {
+
+  .u-section-6 {
+    height: 310vh;
+  }
+  .getingthere{height: 40%;}
+  .getingthere p{
+
+    margin-top: 10px;
+    width: 95%;
+
+  }
+  
+  }
+  *{
+    font-family: Snell Roundhand, cursive;
+  }
+  h1{
+    font-family: Snell Roundhand, cursive;
+  }
+  h2{
+    font-family: Snell Roundhand, cursive;
+  }

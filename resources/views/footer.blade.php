@@ -8,6 +8,26 @@
     <title></title>
     <link rel="stylesheet" href="/css/nicepage.css" media="screen">
     <link rel="stylesheet" href="/css/ContentPage.css" media="screen">
+    <!-- Font Awesome -->
+<link
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+  rel="stylesheet"
+/>
+<!-- Google Fonts -->
+<link
+  href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+  rel="stylesheet"
+/>
+<!-- MDB -->
+<link
+  href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.1.0/mdb.min.css"
+  rel="stylesheet"
+/>
+<!-- MDB -->
+<script
+  type="text/javascript"
+  src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.1.0/mdb.min.js"
+></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script class="u-script" type="text/javascript" src="/js/jquery.js" "="" defer=""></script>
     <script class="u-script" type="text/javascript" src="/js/nicepage.js" "="" defer=""></script>
@@ -24,15 +44,83 @@
     <meta name="theme-color" content="#478ac9">
     <meta property="og:title" content="Home">
     <meta property="og:type" content="website">
+    <?php
+    foreach($list as $item){
+      $CoupleName[] = $item->CoupleName;
+  }
+
+    end($CoupleName);
+    ?>
   </head>
   <body class="u-body u-xl-mode" data-lang="en">
-    
-  <section class="u-align-center u-clearfix u-image u-shading u-section-9" src="" data-image-width="360" data-image-height="540" id="sec-9082">
-      <div class="u-clearfix u-sheet u-sheet-1">
-        <h1 class="u-text u-text-default u-text-palette-3-base u-title u-text-1" style="color: white;">Join us on our<br>Big Day
-        </h1>
-        <a href="{{url('ContactPage')}}" class="u-border-2 u-border-white u-btn u-button-style u-hover-palette-3-base u-none u-text-hover-white u-text-white u-btn-1" data-animation-name="customAnimationIn" data-animation-duration="1000" data-animation-direction="">JOIN<span class="u-text-palette-3-base"></span>
-        </a>
+  <!-- Site footer -->
+  <section class="">
+  <!-- Footer -->
+  <footer class="bg-secondary text-white text-center text-md-start">
+    <!-- Grid container -->
+    <div class="container p-4">
+      <!--Grid row-->
+      <div class="row">
+        <!--Grid column-->
+        <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+          <h5 class="text-uppercase"><?php echo end($CoupleName);?></h5>
+
+          <p>
+          “Walking with your hands in mine and mine in yours, that's exactly where I want to be always.”
+          </p>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Pages</h5>
+
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="#" class="text-white">Home</a>
+            </li>
+            <li>
+              <a href="{{url('Guests')}}" class="text-white">Guests</a>
+            </li>
+            <li>
+              <a href="{{url('ContentPage')}}" class="text-white">Contact</a>
+            </li>
+            <li>
+              <a href="{{url('Blog')}}" class="text-white">Blog</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase mb-0">Sections</h5>
+
+          <ul class="list-unstyled">
+            <li>
+              <a href="#couple" class="text-white">About</a>
+            </li>
+            <li>
+              <a href="#date" class="text-white">Date</a>
+            </li>
+            <li>
+              <a href="#timeline" class="text-white">Timeline</a>
+            </li>
+            <li>
+              <a href="#photos" class="text-white">Photos</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
       </div>
-    </section>
+      <!--Grid row-->
+    </div>
+    <!-- Grid container -->
+
+
+   
+ 
+  </footer>
+
+</section>
   </body></html>

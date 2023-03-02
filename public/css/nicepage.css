@@ -37969,3 +37969,27 @@ a.u-link.u-text-hover-grey-90:hover {
 h2.u-text-palette-3-base{
   color: #50C878;
 }
+
+
+
+@media all and (max-width: 768px) {
+  .Timercontainer{
+    height: 85vh;
+  }
+.Timercontainer  h1 {
+    font-size: calc(1.5rem * var(--smaller));
+  }
+  
+ .Timercontainer li {
+    font-size: calc(1.125rem * var(--smaller));
+  }
+  
+.Timercontainer  li span {
+    font-size: calc(3.375rem * var(--smaller));
+  }
+  .u-section-6 {
+    height: 310vh;
+}
+}
+
+

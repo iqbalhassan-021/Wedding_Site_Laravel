@@ -18,19 +18,23 @@ class Controller extends BaseController
         $newCoupleData = array(
             'list' => DB::table('coupledetails')->get()  
           );
+          $newguests = array(
+            'list' => DB::table('guests')->get()  
+          );
         return view('ContentPage',$newCoupleData);
     }
     public function ContactPage(){
         $newCoupleData = array(
             'list' => DB::table('coupledetails')->get()  
           );
-  
+
         return view('ContactPage',$newCoupleData);
     }
     public function Blog(){
         $newCoupleData = array(
             'list' => DB::table('coupledetails')->get()  
           );
+
         return view('Blog',$newCoupleData);
     }
     public function LandingPage(){
@@ -39,8 +43,22 @@ class Controller extends BaseController
           );
         return view('LandingPage',$newCoupleData);
     }
+    public function Guests(){
+      $newCoupleData = array(
+          'list' => DB::table('coupledetails')->get()  
+        );
+        $newguests = array(
+          'guestlist' => DB::table('guests')->get()  
+        );
+      return view('Guests',$newCoupleData,$newguests);
+  }
 
     public function AdminPage(){
-        return view('adminPage');
+      $newCoupleData = array(
+        'list' => DB::table('coupledetails')->get()  
+      );
+        return view('adminPage',$newCoupleData);
     }
-}
+
+  }
+

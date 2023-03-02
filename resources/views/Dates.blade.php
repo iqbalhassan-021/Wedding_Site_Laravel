@@ -15,12 +15,14 @@
   }
   
     ?>
-    
+   
     <link rel="stylesheet" href="/css/nicepage.css" media="screen">
     <link rel="stylesheet" href="/css/ContentPage.css" media="screen">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script class="u-script" type="text/javascript" src="/js/jquery.js" "="" defer=""></script>
     <script class="u-script" type="text/javascript" src="/js/nicepage.js" "="" defer=""></script>
+    <script class="u-script" type="text/javascript" src="/js/timer.js" "="" defer=""></script>
+   
     <script class="u-script" type="text/javascript" src="/js/nav.js" "="" defer=""></script>
     <meta name="generator" content="Nicepage 4.17.10, nicepage.com">
     <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
@@ -37,30 +39,17 @@
   </head>
   <body class="u-body u-xl-mode" data-lang="en">
     
-  <section class="u-clearfix u-image u-shading u-section-4" id="sec-aab4" data-image-width="440" data-image-height="300">
-      <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
-        <div class="u-expanded-width u-list u-list-1">
-          <div class="u-repeater u-repeater-1">
-            <div class="u-align-center u-container-style u-list-item u-repeater-item">
-              <div class="u-container-layout u-similar-container u-valign-middle u-container-layout-1">
-                <h1 class="u-text u-text-default u-text-palette-3-base u-title u-text-1" data-animation-name="counter" data-animation-event="scroll" data-animation-duration="3000"><?php echo $day ?> </h1>
-                <p class="u-align-center u-text u-text-white u-text-2">DAY </p>
-              </div>
-            </div>
-            <div class="u-align-center u-container-style u-list-item u-repeater-item">
-              <div class="u-container-layout u-similar-container u-valign-middle u-container-layout-2">
-                <h1 class="u-text u-text-default u-text-palette-3-base u-title u-text-3" data-animation-name="counter" data-animation-event="scroll" data-animation-duration="3000"><?php echo $month ?></h1>
-                <p class="u-align-center u-text u-text-default u-text-white u-text-4">MONTH </p>
-              </div>
-            </div>
-            <div class="u-align-center u-container-style u-list-item u-repeater-item">
-              <div class="u-container-layout u-similar-container u-valign-middle u-container-layout-3">
-                <h1 class="u-text u-text-default u-text-palette-3-base u-title u-text-5" data-animation-name="counter" data-animation-event="scroll" data-animation-duration="3000"><?php echo $year ?></h1>
-                <p class="u-align-center u-text u-text-default u-text-white u-text-6">YEAR</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+  <div class="Timercontainer" id="date">
+    <div> <h1 id="headline">time Left in our Big day</h1></div>
+ 
+  <div id="countdown">
+    <ul>
+      <li><span id="days"></span> : days</li>
+      <li><span id="hours"></span> : Hours</li>
+      <li><span id="minutes"></span> : Minutes</li>
+      <li><span id="seconds"></span> : Seconds</li>
+    </ul>
+  </div>
+ 
+</div>
   </body></html>

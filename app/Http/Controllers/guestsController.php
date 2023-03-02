@@ -9,7 +9,7 @@ class guestsController extends Controller
     function newGuest(Request $req){
         $newGuest = new guest();
         $newGuest->username = $req->username;
-        $newGuest->email = $req->email;
+        $newGuest->phonen = $req->phonen;
         $newGuest->address = $req->address;
         $newGuest->number_of_guests = $req->number_of_guests;
         $newGuest->save();
