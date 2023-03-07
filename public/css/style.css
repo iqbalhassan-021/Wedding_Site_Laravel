@@ -3,8 +3,7 @@
     margin: 0px;
     box-sizing: border-box;
     scroll-behavior: smooth;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    
+    font-family: 'Comforter Brush', cursive;
 }
 .wrapper{
     height: 100vh;
@@ -234,7 +233,10 @@
       
         margin-left: -10px;
     }
-}
+    .groomholder .titleimg{
+  
+      margin-left: 10px;
+}}
 @media(min-width:768px){
     .usimage img{
       
@@ -558,4 +560,6 @@ input[type=submit]:hover {
     height: 150vh;
   }
 }
-
+*{
+  font-family: 'Courier New', Courier, monospace;
+}

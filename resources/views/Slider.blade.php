@@ -43,7 +43,7 @@
         </ol>
         <div class="u-carousel-inner" role="listbox" style="height: 100vh;text-align:center;">
           <div style="height: 100vh;text-align:center;" class="u-active u-align-center u-carousel-item u-container-style u-image u-shading u-slide u-image-1" data-image-width="1920" data-image-height="1013">
-            <div class="u-container-layout u-valign-middle u-container-layout-1" style="height: 100vh;">
+            <div class="u-container-layout u-valign-middle u-container-layout-1" style="height: 100vh;display:flex;justify-content:center;align-items:center;flex-direction:column; ">
               <h2 class="u-text u-text-palette-3-base u-text-1" data-animation-name="customAnimationIn" data-animation-duration="1000" data-animation-direction=""><?php echo end($CoupleName);?></h2>
               <h2 class="u-text u-text-2" data-animation-name="customAnimationIn" data-animation-duration="1000">WE ARE GETTING MARRIED</h2>
               <a href="{{url('ContentPage')}}" class="u-border-none u-btn u-btn-round u-button-style u-hover-palette-3-base u-radius-50 u-text-hover-white u-white u-btn-1" data-animation-name="pulse" data-animation-duration="1000" data-animation-direction=""> Explore</a>
