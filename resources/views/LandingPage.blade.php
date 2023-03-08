@@ -10,7 +10,7 @@
     <a href="{{url('ContentPage')}}">Date</a>
     <a href="{{url('ContentPage')}}">Photos</a>
     <a href="{{url('ContentPage')}}">Our Story</a>
-    <a href="#">Blog</a>
+    <a href="{{url('Blog')}}">Blog</a>
     <a href="{{url('ContactPage')}}">Contact</a>
     <a href="{{url('Guests')}}" >Guests</a>
     <a href="{{url('ContentPage')}}>About</a>

@@ -21,7 +21,7 @@
     <a href="{{url('Blog')}}">Blog</a>
     <a href="{{url('ContactPage')}}" class="active" >Contact</a>
     <a href="{{url('Guests')}}" >Guests</a>
-    <a href="{{url('ContentPage')}}>About</a>
+    <a href="{{url('ContentPage')}}">About</a>
     <a href="javascript:void(0);" class="icon" onclick="myFunction()">
     <i class="fa fa-bars"></i>
   </a>

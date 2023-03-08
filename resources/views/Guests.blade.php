@@ -38,8 +38,8 @@
   <div class="topnav" id="myTopnav">
     <a href="{{url('ContentPage')}}" style="color: green;font-family: 'Brush Script MT', cursive;"><?php echo end($CoupleName);?></a>
     <a href="{{url('ContentPage')}}" >Home</a>
-    <a href="#" onclick="dispPhotos()">Photos</a>
-    <a href="#" onclick="dispOurStory()">Our Story</a>
+    <a href="{{url('ContentPage')}}" onclick="dispPhotos()">Photos</a>
+    <a href="{{url('ContentPage')}}" onclick="dispOurStory()">Our Story</a>
     <a href="{{url('ContactPage')}}" >Contact</a>
     <a href="{{url('Guests')}}" >Guests</a>
     <a href="#" onclick="dispAbout()" >About</a>
@@ -61,7 +61,7 @@
   @foreach($guestlist as $glist)
   <tr>
     <td>{{$glist->username}}</td>
-    <td><{{$glist->address}}></td>
+    <td>{{$glist->address}}</td>
     <td>{{$glist->phonen}}</td>
     <td>{{$glist->number_of_guests}}</td>
   

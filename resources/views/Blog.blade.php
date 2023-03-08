@@ -13,6 +13,8 @@
     <title><?php echo end($CoupleName);?></title>
     <link rel="stylesheet" href="/css/nicepage.css" media="screen">
     <link rel="stylesheet" href="/css/blog.css" media="screen">
+    <link rel="stylesheet" href="/css/style.css" media="screen">
+    <link rel="stylesheet" href="/css/timeline.css" media="screen">
     <link rel="stylesheet" href="/css/ContentPage.css" media="screen">
     <link rel="stylesheet" href="/css/Blog-Template.css" media="screen">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">

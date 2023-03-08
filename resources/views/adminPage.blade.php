@@ -47,7 +47,7 @@
     <div class="blog" >
     <h1>Admin Portal</h1>
   </div>
-<div class="adminformcontainer">
+<div class="adminformcontainerforaddingdata">
  
   <form action="AddCouple" method="POST" id="adminform" class="adminform">
     @csrf

@@ -18,26 +18,31 @@
   
     <a href="{{url('ContentPage')}}" style="color: green;font-family: 'Brush Script MT', cursive;"><?php echo end($CoupleName);?></a>
     <a href="{{url('ContentPage')}}" class="active">Home</a>
-    <a href="#sec-aab4">Date</a>
-    <a href="#sec-036b">Photos</a>
-    <a href="#carousel_7fc0">Our Story</a>
+    <a href="#weddingdate">Date</a>
+    <a href="#photosection">Photos</a>
+    <a href="#storyline">Our Story</a>
     <a href="{{url('Blog')}}">Blog</a>
     <a href="{{url('ContactPage')}}">Contact</a>
-    <a href="#sec-0caf">About</a>
+    <a href="#viewcouple">About</a>
     <a href="{{url('Guests')}}" >Guests</a>
     <a href="javascript:void(0);" class="icon" onclick="myFunction()">
     <i class="fa fa-bars"></i>
   </a>
     </div>
     <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
-    @include('Groom&Bride')
-    @include('Dates')
-    @include('Photos')
-    @include('OurStory')
-    @include('invitation')
-    @include('WeddingDestination')
-    @include('gettingThere')
-    @include('footer')
+    <div id="viewcouple">@include('Groom&Bride')
+    </div>
+    <div id="weddingdate">@include('Dates')</div> 
+    <div id="photosection">@include('Photos')</div>
+    <div id="storyline">@include('OurStory')</div>
+    <div id="destination">@include('WeddingDestination')</div> 
+    <div id="invitation">@include('invitation')</div>
+    <div id="getthere">@include('gettingThere')</div>
+   <div id="footersection">@include('footer')</div>
+
+
+
+
 
   <script>
     // Get the button
