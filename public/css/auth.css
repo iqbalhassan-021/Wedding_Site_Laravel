@@ -120,11 +120,12 @@ body{
     outline: none;
     border-radius: 3px;
     margin: 0 auto;
-    margin: 26px;
+    margin: 13px;
     border: 2px solid transparent;
     transition: .4s;
     cursor: pointer;
 }
+
 
 .main-login input::placeholder{
     color: #55be9b8f;
@@ -297,3 +298,24 @@ body{
     border-bottom-right-radius: 100%;
     background-color: #75cd7e;
 } 
+
+.login a{
+    
+    background-color: red;
+    max-width: 310px;
+    width: 62%;
+    height: 40px;
+    cursor: pointer;
+    color: white;
+    border-style: none;
+}
+.cancel{
+    
+    background-color: red;
+    max-width: 310px;
+    width: 62%;
+    height: 40px;
+    cursor: pointer;
+    color: white;
+    border-style: none;
+}

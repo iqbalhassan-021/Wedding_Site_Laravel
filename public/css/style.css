@@ -440,32 +440,12 @@
   background-color: aqua;
 }
 
-input[type=text], select, textarea {
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-  margin-top: 6px;
-  margin-bottom: 16px;
-  resize: vertical;
-}
-
-input[type=submit] {
-  background-color: transparent;
-  color: green;
-  padding: 12px 20px;
-  border: 1px solid green;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-input[type=submit]:hover {
-  background-color: #50C878;
-}
 
 .formcontainer {
- 
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
   margin-top: 20px;
   border-radius: 15px;
   background-color: rgba(255, 255, 255, 0.5);
@@ -473,12 +453,35 @@ input[type=submit]:hover {
   height: 70%;
   width: 50%;
 }
+.newguestfrom{
+  width: 100%;
+  height: 100%;
+}
+.newguestfrom input[type=submit]{
+  background-color: #50C878;
+  color: white;
+  outline: none;
+}
+.formcontainer form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 @media(max-width:768px){
   .contactfromleft{
     display: none;
   }
   .contactformright{
     height: 100%;
+    width: 100%;
+  }
+  .formcontainer{
+    height: 50%;
+    width: 100%;
+  }
+  .newguestfrom input[type=text]{
+ 
     width: 100%;
   }
 }
@@ -571,4 +574,238 @@ background-color: white;
 }
 *{
 font-family: sans-serif;
+}
+
+
+.footerclass{
+  background-color: gold;
+}
+
+.thefooter{
+  height: 30%;
+  width: 100%;
+  background-color: gold;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.textsection{
+  height: 100%;
+  width: 30%;
+  background-color: transparent;
+  display: flex;
+  padding-top: 10px;
+ padding-left: 10px;
+  flex-direction: column;
+  color: white;
+}
+.rolesections{
+  height: 100%;
+  width: 30%;
+  background-color: transparent;
+  display: flex;
+  padding-top: 10px;
+  padding-left: 10px;
+  flex-direction: column;
+  color: white;
+}
+.pages{
+  height: 100%;
+  width: 30%;
+  background-color: transparent;
+  display: flex;
+  padding-top: 10px;
+  padding-left: 10px;
+  flex-direction: column;
+  color: white;
+}
+.pages a,.rolesections a{
+  text-decoration: none;
+  color: white;
+}
+
+.stylishfont{
+
+  font-family: 'Great Vibes', cursive;
+
+}
+.dataentryform{
+  height: 60vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.dataformclass{
+  height: 60%;
+  width: 50%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.dataentryformlft,.dataentryformrgt{
+  height: 100%;
+  width: 50%;
+  display: flex;
+ background-color: transparent;
+ 
+  flex-direction: column;
+}
+.dataformclass input[type=text]{
+  width: 70%;
+  height: 30px;
+  border-style: none;
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding-left: 10px;
+  outline: none;
+
+}
+.formcontainer input[type=text]{
+  width: 70%;
+  height: 30px;
+  border-style: none;
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding-left: 10px;
+  outline: none;
+  margin-top: 10px;
+
+}
+.formcontainer input[type=submit]{
+  width: 70%;
+  height: 30px;
+  border-style: none;
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding-left: 10px;
+  outline: none;
+  cursor: pointer;
+  margin-top: 10px;
+
+}
+.names{
+  margin-top: 10px;
+  height: auto;
+  width: 70%;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+}
+
+.weddingdates{
+  margin-top: 10px;
+  height: auto;
+  width: 70%;
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+}
+.names input[type=text]{
+  width: 40%;
+
+  padding-left: 10px;
+  outline: none;
+}
+.names input[type=text]:nth-child(2){
+  margin-left: 10px;
+}
+.weddingdates input[type=text]{
+  width: 20%;
+  margin-left: 10px;
+  padding-left: 10px;
+  outline: none;
+}
+.weddingdates input[type=text]:nth-child(1){
+  margin-left: 0px;
+}
+.dataentryformrgt textarea{
+  width: 70%;
+  height: 70px;
+  border-style: none;
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding-left: 10px;
+  outline: none;
+  margin-top: 10px;
+}
+.savedata{
+  margin-top: 10px;
+  height: auto;
+  width: 70%;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+}
+.savedata input[type=submit]{
+  width: 50%;
+  height: 30px;
+  border-style: none;
+  border: 1px solid gray;
+  border-radius: 5px;
+
+  outline: none;
+  background-color: white;
+  cursor: pointer;
+}
+.savedata button{
+  width: 30%;
+  height: 30px;
+  border-style: none;
+ 
+  border-radius: 5px;
+  color: black;
+  outline: none;
+  background-color: white;
+  cursor: pointer;
+}
+.savedata button{
+  margin-left:10px ;
+}
+.savedata button:hover{
+  background-color: red;
+  color: white;
+  width: 100%;
+}
+.savedata a{
+ text-decoration: none;
+}
+.savedata input[type=submit]:nth-child(1):hover{
+  background-color: green;
+  color: white;
+}
+@media(max-width:768px){
+  .dataentryform{
+    height: 100vh;
+  }
+  .dataformclass{
+  width: 100%;
+  flex-direction: column;
+}
+.dataentryformlft{
+  height: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+ 
+}
+.dataentryformrgt{
+  height: 50%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+.dataentryformrgt{
+  justify-content: center;
+  align-items: center;
+}
+
 }

@@ -42,7 +42,7 @@
   <div class="wrapper" id="couple">
         <div class="groomholder">
             <div class="Groomimagesholder"></div>
-            <h1><?php echo end($groom);?></h1>
+            <h1 class="stylishfont"><?php echo end($groom);?></h1>
             <img class="titleimg" src="/images/title2.png" alt="">
             <div class="aboutcouple">
                 <p><?php echo $textaboutGroom;?></p>
@@ -64,7 +64,7 @@
             <div class="Brideimagesholder">
               
             </div>
-            <h1><?php echo end($bride);?></h1>
+            <h1  class="stylishfont"><?php echo end($bride);?></h1>
             <img class="titleimg" src="/images/title2.png" alt="">
                       <div class="aboutcouple">
                 <p><?php echo $textaboutBride;?></p>

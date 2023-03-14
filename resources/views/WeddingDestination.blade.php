@@ -15,18 +15,11 @@
     <link rel="stylesheet" href="/css/nicepage.css" media="screen">
     <link rel="stylesheet" href="/css/ContentPage.css" media="screen">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script class="u-script" type="text/javascript" src="/js/jquery.js" "="" defer=""></script>
-    <script class="u-script" type="text/javascript" src="/js/nicepage.js" "="" defer=""></script>
-    <script class="u-script" type="text/javascript" src="/js/nav.js" "="" defer=""></script>
-    <meta name="generator" content="Nicepage 4.17.10, nicepage.com">
+  <meta name="generator" content="Nicepage 4.17.10, nicepage.com">
     <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
     <link id="u-page-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700|Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i">
-  
-    <script type="application/ld+json">{
-		"@context": "http://schema.org",
-		"@type": "Organization",
-		"name": ""
-}</script>
+
+</script>
     <meta name="theme-color" content="#478ac9">
     <meta property="og:title" content="Home">
     <meta property="og:type" content="website">
@@ -39,7 +32,7 @@
             <div class="u-layout-row" style="">
               <div class="u-container-style u-layout-cell u-left-cell u-size-30 u-size-xs-60 u-layout-cell-1" src="">
                 <div class="u-container-layout u-valign-middle u-container-layout-1" style="text-align:center ;background-image:url('/images/pngwing.com.png');background-size:cover;background-repeat:no-repeat;background-position:center;">
-                  <h2 class="u-align-center u-text u-text-default u-text-1">Wedding Destination</h2>
+                  <h2 class="u-align-center u-text u-text-default u-text-1 stylishfont">Wedding Destination</h2>
                   <p class="u-align-center u-text u-text-2"><?php echo end($dest);?></p>
                   <a href="#" class="" data-animation-name="customAnimationIn" data-animation-duration="1000" style="color:#50C878;">learn more</a>
                 </div>

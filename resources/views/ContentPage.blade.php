@@ -16,7 +16,7 @@
     <!--NavBar-->
     <div class="topnav" id="myTopnav">
   
-    <a href="{{url('ContentPage')}}" style="color: green;font-family: 'Brush Script MT', cursive;"><?php echo end($CoupleName);?></a>
+    <a href="{{url('ContentPage')}}" class="stylishfont" style="color: green; font-family: 'Great Vibes', cursive;"><?php echo end($CoupleName);?></a>
     <a href="{{url('ContentPage')}}" class="active">Home</a>
     <a href="#weddingdate">Date</a>
     <a href="#photosection">Photos</a>

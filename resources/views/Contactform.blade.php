@@ -19,18 +19,12 @@
     <link rel="stylesheet" href="/css/style.css" media="screen">
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script class="u-script" type="text/javascript" src="/js/jquery.js" "="" defer=""></script>
-    <script class="u-script" type="text/javascript" src="/js/nicepage.js" "="" defer=""></script>
-    <script class="u-script" type="text/javascript" src="/js/nav.js" "="" defer=""></script>
+   <script class="u-script" type="text/javascript" src="/js/nav.js" "="" defer=""></script>
     <meta name="generator" content="Nicepage 4.17.10, nicepage.com">
     <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
     <link id="u-page-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700|Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i">
   
-    <script type="application/ld+json">{
-		"@context": "http://schema.org",
-		"@type": "Organization",
-		"name": ""
-}</script>
+
     <meta name="theme-color" content="#478ac9">
     <meta property="og:title" content="Home">
     <meta property="og:type" content="website">
@@ -40,10 +34,10 @@
 <div class="contactform">
   <div class="contactfromleft"></div>
   <div class="contactformright">
-    <h1><?php echo end($CoupleName);?></h1>
+    <h1 class="stylishfont"><?php echo end($CoupleName);?></h1>
 
     <div class="formcontainer">
-      <form action="ContactPage" method="POST">
+      <form action="ContactPage" method="POST" class="newguestfrom">
         @csrf
         <input type="text" id="fname" name="username" placeholder="Your Name">
     

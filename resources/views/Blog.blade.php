@@ -17,27 +17,19 @@
     <link rel="stylesheet" href="/css/timeline.css" media="screen">
     <link rel="stylesheet" href="/css/ContentPage.css" media="screen">
     <link rel="stylesheet" href="/css/Blog-Template.css" media="screen">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script class="u-script" type="text/javascript" src="/js/jquery.js" "="" defer=""></script>
-    <script class="u-script" type="text/javascript" src="/js/nicepage.js" "="" defer=""></script>
-    <script class="u-script" type="text/javascript" src="/js/nav.js" "="" defer=""></script>
+   <script class="u-script" type="text/javascript" src="/js/nav.js" "="" defer=""></script>
     <meta name="generator" content="Nicepage 4.17.10, nicepage.com">
     <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
     <link id="u-page-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700|Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i">
-  
-    <script type="application/ld+json">{
-		"@context": "http://schema.org",
-		"@type": "Organization",
-		"name": ""
-}</script>
+    <link href="https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Great+Vibes&display=swap" rel="stylesheet">
     <meta name="theme-color" content="#478ac9">
     <meta property="og:title" content="Home">
     <meta property="og:type" content="website">
   </head>
   <body>
   <div class="topnav" id="myTopnav">
-    <a href="{{url('ContentPage')}}" style="color: green;font-family: 'Brush Script MT', cursive;"><?php echo end($CoupleName);?></a>
-    <a href="{{url('ContentPage')}}" >Home</a>
+    <a href="{{url('/')}}" class="stylishfont" style="color: green; font-family: 'Great Vibes', cursive;"><?php echo end($CoupleName);?></a>
+    <a href="{{url('/')}}" >Home</a>
     <a href="#" onclick="dispPhotos()">Photos</a>
     <a href="#" onclick="dispOurStory()">Our Story</a>
     <a href="{{url('ContactPage')}}" >Contact</a>
@@ -48,7 +40,7 @@
   </a>
     </div>
   <div class="blog">
-    <h1>Blog</h1>
+    <h1 class="stylishfont">Blog</h1>
   </div>
   <div id="about">
   @include('Groom&Bride')

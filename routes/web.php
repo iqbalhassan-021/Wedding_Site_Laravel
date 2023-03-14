@@ -8,7 +8,7 @@ use App\Http\Controllers\Controller;
 
 
 Route::get('LandingPage',[Controller::class,'LandingPage']);
-Route::get('ContentPage',[Controller::class,'ContentPage']);
+Route::get('/',[Controller::class,'ContentPage']);
 Route::get('ContactPage', [Controller::class,'ContactPage']);
 Route::POST('ContactPage',[guestsController::class,'newGuest']);
 Route::get('showData',[Controller::class,'ContentPage']);
