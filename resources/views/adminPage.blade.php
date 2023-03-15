@@ -58,7 +58,17 @@
                 <input type="text" placeholder="Month" name="Month">  
                 <input type="text" placeholder="Year" name="Year">  
             </div>
-          
+            <div class="imagesselecter">
+        
+            <label for="Groomimage">Select Groom image</label>
+            <input type="file" id="Groomimage" name="Groomimage" accept="image/*">
+            <label for="Brideimage">Select Bride image</label>
+            <input type="file" id="Brideimage" name="Brideimage" accept="image/*">
+            <label for="files">Select images</label>
+            <input type="file" id="files" name="files" multiple accept="image/*"><br><br>
+ 
+
+          </div>
        
           </div>
           <div class="dataentryformrgt">

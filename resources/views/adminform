@@ -1,0 +1,31 @@
+ <form action="AddCouple" method="POST" class="dataformclass">
+            @csrf
+          <div class="dataentryformlft">
+            <input type="text" placeholder="Couplename" name="CoupleName">
+            <div class="names"> 
+                <input type="text" placeholder="Groom name" name="GroomName">
+                <input type="text" placeholder="Bride name" name="BrideName">   
+            </div>
+            <div class="weddingdates"> 
+                <input type="text" placeholder="Day" name="Day">
+                <input type="text" placeholder="Month" name="Month">  
+                <input type="text" placeholder="Year" name="Year">  
+            </div>
+          
+       
+          </div>
+          <div class="dataentryformrgt">
+            <textarea rows="4" type="text" id="lname" name="TextAboutGroom" placeholder="Text about Groom.."  maxlength="500"></textarea>
+            <textarea rows="4" type="text" id="lname" name="TextAboutBride" placeholder="Text about Bride.." maxlength="500"></textarea>
+            <textarea rows="4" type="text" id="fname" name="FirstMet" placeholder="Story of first Meeting.." maxlength="500"></textarea>
+            <textarea rows="4" type="text" id="lname" name="DATE" placeholder="Story of first Date .." maxlength="500"></textarea>
+            <textarea rows="4" type="text" id="lname" name="Proposal" placeholder="Story of Proposal.." maxlength="500"></textarea>
+            <div class="savedata">
+                <input type="submit" value="Submit" >
+                <a href="{{url('/')}}"><button class="cancel">Logout</button></a> 
+            </div>
+          </div>
+       
+          
+        </form>
+   

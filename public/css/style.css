@@ -610,6 +610,12 @@ font-family: sans-serif;
   flex-direction: column;
   color: white;
 }
+.textsection p{
+  font-size: 12px;
+}
+.textsection h1{
+  font-size: 16px;
+}
 .pages{
   height: 100%;
   width: 30%;
@@ -639,29 +645,34 @@ font-family: sans-serif;
 
 }
 .dataformclass{
-  height: 60%;
-  width: 50%;
+  padding-top: 10px;
+  height: 90%;
+  width: 70%;
   background-color: white;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: row;
+  box-shadow: 0px 0px 20px silver;
+  border-radius: 12px;
+
 }
 .dataentryformlft,.dataentryformrgt{
   height: 100%;
   width: 50%;
   display: flex;
  background-color: transparent;
- 
+  padding-left: 10px;
   flex-direction: column;
 }
 .dataformclass input[type=text]{
   width: 70%;
   height: 30px;
+  font-size: 12px;
   border-style: none;
   border: 1px solid gray;
   border-radius: 5px;
-  padding-left: 10px;
+  padding-left: 5px;
   outline: none;
 
 }
@@ -692,7 +703,7 @@ font-family: sans-serif;
   margin-top: 10px;
   height: auto;
   width: 70%;
-  background-color: white;
+  background-color: transparent;
   display: flex;
   flex-direction: row;
 }
@@ -708,7 +719,7 @@ font-family: sans-serif;
 .names input[type=text]{
   width: 40%;
 
-  padding-left: 10px;
+  padding-left: 5px;
   outline: none;
 }
 .names input[type=text]:nth-child(2){
@@ -717,8 +728,10 @@ font-family: sans-serif;
 .weddingdates input[type=text]{
   width: 20%;
   margin-left: 10px;
-  padding-left: 10px;
+  padding-left: 5px;
   outline: none;
+  font-size: 12px;
+
 }
 .weddingdates input[type=text]:nth-child(1){
   margin-left: 0px;
@@ -731,15 +744,32 @@ font-family: sans-serif;
   border-radius: 5px;
   padding-left: 10px;
   outline: none;
+  font-size: 12px;
   margin-top: 10px;
 }
 .savedata{
   margin-top: 10px;
   height: auto;
   width: 70%;
-  background-color: white;
+  background-color: transparent;
   display: flex;
   flex-direction: row;
+}
+.imagesselecter{
+  height: 70%;
+  width: 70%;
+  padding-top: 10px;
+  background-color: transparent;
+}
+.imagesselecter label{
+  margin-top: 10px;
+  color: gray;
+}
+.imagesselecter input[type=file]{
+  margin-top: 10px;
+  cursor: pointer;
+  color: gray;
+
 }
 .savedata input[type=submit]{
   width: 50%;
@@ -778,6 +808,15 @@ font-family: sans-serif;
   background-color: green;
   color: white;
 }
+
+
+
+
+
+
+
+
+
 @media(max-width:768px){
   .dataentryform{
     height: 100vh;
@@ -807,5 +846,7 @@ font-family: sans-serif;
   justify-content: center;
   align-items: center;
 }
-
+.textsection p{
+  font-size: 12px;
+}
 }
