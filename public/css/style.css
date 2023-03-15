@@ -746,6 +746,7 @@ font-family: sans-serif;
   outline: none;
   font-size: 12px;
   margin-top: 10px;
+  padding-top: 10px;
 }
 .savedata{
   margin-top: 10px;
@@ -775,11 +776,12 @@ font-family: sans-serif;
   width: 50%;
   height: 30px;
   border-style: none;
-  border: 1px solid gray;
+
   border-radius: 5px;
 
   outline: none;
-  background-color: white;
+  background-color: #50C878;
+  color: white;
   cursor: pointer;
 }
 .savedata button{
