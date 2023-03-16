@@ -12,7 +12,8 @@
       $bride[] = $item->BrideName;
       $textaboutGroom = $item->TextAboutGroom;
       $textaboutBride = $item->TextAboutBride;
-
+      $groomeimage = $item->groomeimage;
+      $brideimage = $item->brideimage;
   }
    // end($textaboutGroom);
    // end($textaboutBride);
@@ -24,6 +25,7 @@
     <link rel="stylesheet" href="/css/nicepage.css" media="screen">
     
     <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/images.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="/css/ContentPage.css" media="screen">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
