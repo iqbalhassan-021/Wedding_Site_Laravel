@@ -49,6 +49,8 @@
             @csrf
           <div class="dataentryformlft">
             <input type="text" placeholder="Couplename" name="CoupleName">
+            <input type="text" placeholder="Wedding Destination" name="WeddingDestinatoin" style="margin-top: 10px;">
+            
             <div class="names"> 
                 <input type="text" placeholder="Groom name" name="GroomName">
                 <input type="text" placeholder="Bride name" name="BrideName">   
@@ -61,9 +63,9 @@
             <div class="imagesselecter">
         
             <label for="Groomimage">Select Groom image</label>
-            <input type="file" id="Groomimage" name="Groomimage" accept="image/*">
+            <input type="file" id="Groomimage" name="groomeimage" accept="image/*">
             <label for="Brideimage">Select Bride image</label>
-            <input type="file" id="Brideimage" name="Brideimage" accept="image/*">
+            <input type="file" id="Brideimage" name="brideimage" accept="image/*">
             <label for="files">Select images</label>
             <input type="file" id="files" name="files" multiple accept="image/*"><br><br>
  

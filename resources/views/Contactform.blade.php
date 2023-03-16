@@ -39,19 +39,28 @@
     <div class="formcontainer">
       <form action="ContactPage" method="POST" class="newguestfrom">
         @csrf
-        <input type="text" id="fname" name="username" placeholder="Your Name">
+        <input type="text" id="name" name="username" placeholder="Your Name">
     
-        <input type="text" id="lname" name="phonen" placeholder="Your Address">
+        <input type="text" id="address" name="phonen" placeholder="Your Address">
   
-        <input type="text" id="fname" name="number_of_guests" placeholder="Number of Guests">
+        <input type="text" id="nguests" name="number_of_guests" placeholder="Number of Guests">
     
-        <input type="text" id="lname" name="address" placeholder="Your Phone Number">
-  
+        <input type="text" id="phonen" name="address" placeholder="Your Phone Number">
+        <span style="font-size: 10px;color:red;display:none;margin-top:10px;" id="wrongentery">Please fill all the entries</span>
         <input type="submit" value="Submit">
       </form>
     </div>
     
-    
+    <script>
+       name = document.getElementById('name').value;
+       address = document.getElementById('address').value;
+       nguests = document.getElementById('nguests').value;
+       phonen = document.getElementById('phonen').value;
+
+      if(name == " " && address == " " && nguests == " " && phonen == " " ){
+          document.getElementById('wrongentery').style.display="block";
+      }
+    </script>
   </div>
 </div>
 </body>

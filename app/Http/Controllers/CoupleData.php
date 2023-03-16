@@ -21,9 +21,11 @@ class CoupleData extends Controller
         $newcouple->DATE = $req->DATE;
         $newcouple->Proposal = $req->Proposal;
         $newcouple->WeddingDestinatoin = $req->WeddingDestinatoin;
+        $newcouple->groomeimage = $req->groomeimage;
+        $newcouple->brideimage = $req->brideimage;
        
         $newcouple->save();
-        return redirect('ContentPage');
+        return redirect('/');
       
      
     } 
