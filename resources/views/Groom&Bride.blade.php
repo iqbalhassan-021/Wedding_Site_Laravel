@@ -59,7 +59,7 @@
         </div>
         <div class="us">
         <div class="usimage">
-            <img src="/images/shape.png" alt="">
+          
         </div>
         </div>
         <div class="brideholder">

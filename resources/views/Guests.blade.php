@@ -30,11 +30,12 @@
   <div class="topnav" id="myTopnav">
     <a href="{{url('/')}}" style="color: green;  font-family: 'Great Vibes', cursive;" class="stylishfont"><?php echo end($CoupleName);?></a>
     <a href="{{url('/')}}" >Home</a>
-    <a href="{{url('/')}}" onclick="dispPhotos()">Photos</a>
-    <a href="{{url('/')}}" onclick="dispOurStory()">Our Story</a>
-    <a href="{{url('ContactPage')}}" >Contact</a>
-    <a href="{{url('Guests')}}" >Guests</a>
-    <a href="#" onclick="dispAbout()" >About</a>
+    <a href="{{url('/')}}">Photos</a>
+    <a href="{{url('/')}}" >Our Story</a>
+    <a href="{{url('ContactPage')}}">Contact</a>
+    <a href="#" >Guests</a>
+    <a href="{{url('Blog')}}" >Blog</a>
+    <a href="{{url('/')}}">About</a>
     <a href="javascript:void(0);" class="icon" onclick="myFunction()">
     <i class="fa fa-bars"></i>
   </a>
