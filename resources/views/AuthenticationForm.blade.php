@@ -28,7 +28,28 @@
 
   </head>
   <body>
-@include('AdminPanel')
-@include('AuthenticationForm')
-</body>
-</html>
+<div class="login" id="adminloginsection">
+        <div class="main-login">
+           
+            <h1>Login</h1>
+         
+            <input class="usr put" placeholder="Email or Username" type="text" name="username" id="user">
+          <br>
+            <input id="pass" class="pss put" placeholder="Password" type="password" name="password">
+          
+            <input value="Login" id="btn" class="sub" type="submit" onclick="auth()">
+           <a href="{{url('/')}}"><button class="cancel">Cancel</button></a> 
+              </div>
+        <div class="banner">
+            <div class="blob"></div>
+            <div class="blob"></div>
+            <div class="contain">
+                <h1>Welcome Back!</h1>
+                <h4>We are happy to have you back, please login back in to continue</h4>
+            <div class="lines">
+            
+            </div>
+            
+            </div>
+        </div>
+</div></body></html>
