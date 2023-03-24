@@ -582,7 +582,7 @@ font-family: sans-serif;
 }
 
 .thefooter{
-  height: 30%;
+  height: 40%;
   width: 100%;
   background-color: gold;
   display: flex;
@@ -595,40 +595,64 @@ font-family: sans-serif;
   width: 30%;
   background-color: transparent;
   display: flex;
+  justify-content: center;
+  align-items: center;
+
   padding-top: 10px;
  padding-left: 10px;
   flex-direction: column;
   color: white;
+  text-align: center;
 }
 .rolesections{
   height: 100%;
   width: 30%;
   background-color: transparent;
   display: flex;
+  justify-content: center;
+  align-items: center;
+  
   padding-top: 10px;
   padding-left: 10px;
   flex-direction: column;
   color: white;
+  padding: 30px;
 }
 .textsection p{
-  font-size: 12px;
+  font-size: 18px;
 }
 .textsection h1{
-  font-size: 16px;
+  font-size: 36px;
 }
 .pages{
   height: 100%;
   width: 30%;
   background-color: transparent;
   display: flex;
+  justify-content: center;
+  align-items: center;
+  
   padding-top: 10px;
   padding-left: 10px;
   flex-direction: column;
   color: white;
+  padding: 30px;
 }
 .pages a,.rolesections a{
   text-decoration: none;
   color: white;
+}
+@media(max-width:768px){
+  .thefooter{
+    height: 100vh;
+    flex-direction: column;
+  }
+  .textsection p{
+    font-size: 12px;
+  }
+  .textsection h1{
+    font-size: 18px;
+  }
 }
 
 .stylishfont{
@@ -852,4 +876,7 @@ font-family: sans-serif;
 .textsection p{
   font-size: 12px;
 }
+}
+.hidden{
+  display: none;
 }

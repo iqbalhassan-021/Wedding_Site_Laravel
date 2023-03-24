@@ -27,7 +27,7 @@
 "Love is the beginning of a journey that never ends."</p>
   </div>
   <div class="rolesections">
-  <a href="#" >Home</a>
+    <a href="#" >Home</a>
     <a href="#weddingdate">Date</a>
     <a href="#photosection">Photos</a>
     <a href="#storyline">Our Story</a>

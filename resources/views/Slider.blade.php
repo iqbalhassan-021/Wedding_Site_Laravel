@@ -42,7 +42,7 @@
             <div class="u-container-layout u-valign-middle u-container-layout-1" style="height: 100vh;display:flex;justify-content:center;align-items:center;flex-direction:column; ">
               <h2 class="u-text u-text-palette-3-base u-text-1 stylishfont heading" data-animation-name="customAnimationIn" data-animation-duration="1000" data-animation-direction=""><?php echo end($CoupleName);?></h2>
         <span>__________________________________________________</span><h2 class="u-text u-text-2" data-animation-name="customAnimationIn" data-animation-duration="1000">WE ARE GETTING MARRIED</h2><span style="margin-top: -10px;">__________________________________________________</span>
-              <a href="{{url('ContentPage')}}" class="u-border-none u-btn u-btn-round u-button-style u-hover-palette-3-base u-radius-50 u-text-hover-white u-white u-btn-1" data-animation-name="pulse" data-animation-duration="1000" data-animation-direction=""> Explore</a>
+              <a href="#couple" class="u-border-none u-btn u-btn-round u-button-style u-hover-palette-3-base u-radius-50 u-text-hover-white u-white u-btn-1" data-animation-name="pulse" data-animation-duration="1000" data-animation-direction=""> Explore</a>
          
             </div>
           </div>
@@ -50,7 +50,7 @@
             <div class="u-container-layout u-valign-middle u-container-layout-2" style="height: 100vh;">
               <h2 class="u-text u-text-palette-3-base u-text-3 stylishfont"  data-animation-name="customAnimationIn" data-animation-duration="1000"><?php echo end($CoupleName);?></h2>
               <span>__________________________________________________</span><h2 class="u-text u-text-2" data-animation-name="customAnimationIn" data-animation-duration="1000">WE ARE GETTING MARRIED</h2><span style="margin-top: -10px;">__________________________________________________</span>
-              <a href="{{url('ContentPage')}}" class="u-border-none u-btn u-btn-round u-button-style u-hover-palette-3-base u-radius-50 u-text-hover-white u-white u-btn-2">Explore</a>
+              <a href="#couple" class="u-border-none u-btn u-btn-round u-button-style u-hover-palette-3-base u-radius-50 u-text-hover-white u-white u-btn-2">Explore</a>
             </div>
           </div>
         </div>

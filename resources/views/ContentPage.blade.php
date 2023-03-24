@@ -1,5 +1,7 @@
 <head>
-  <link rel="stylesheet" href="/css/style.css">
+<link rel="stylesheet" href="/css/ContentPage.css">
+
+<link rel="stylesheet" href="/css/style.css">
 <?php
     foreach($list as $item){
       $CoupleName[] = $item->CoupleName;

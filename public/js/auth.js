@@ -1,4 +1,6 @@
+document.getElementById('newGuests').style.display="none";
 document.getElementById('adminsection').style.display="none";
+
 function auth(){
     var user = document.getElementById('user').value;
     var pass = document.getElementById('pass').value;
@@ -9,6 +11,10 @@ function auth(){
     //window.location.href = GET_USERS_URL;
     document.getElementById('adminsection').style.display="block";
     document.getElementById('adminloginsection').style.display="none";
+    }
+    else if(user=="user"&&pass=="user47"){
+        document.getElementById('newGuests').style.display="block";
+        document.getElementById('adminloginsection').style.display="none";
     }
     else{
     alert('Wrong entry!!');
