@@ -8,12 +8,14 @@ class guestsController extends Controller
 {
     function newGuest(Request $req){
         $newGuest = new guest();
-        $newGuest->username = $req->username;
+        $newGuest->fname = $req->fname;
+        $newGuest->lname = $req->lname;
         $newGuest->phonen = $req->phonen;
         $newGuest->address = $req->address;
+        $newGuest->email = $req->email;
         $newGuest->number_of_guests = $req->number_of_guests;
         $newGuest->save();
-        return redirect('ContentPage');
+        return redirect('/');
       
      
     } 

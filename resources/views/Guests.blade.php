@@ -10,7 +10,9 @@
     ?>
     <title><?php echo end($CoupleName);?></title>
     <script class="u-script" type="text/javascript" src="/js/nav.js" "="" defer=""></script>
-     <script class="u-script" type="text/javascript" src="/js/auth.js" "="" defer=""></script>
+   
+    <script class="u-script" type="text/javascript" src="/js/showGuests.js" "="" defer=""></script>
+  
     <link rel="stylesheet" href="/css/blog.css" media="screen">
     <link rel="stylesheet" href="/css/ContentPage.css" media="screen">
     <link rel="stylesheet" href="/css/style.css" media="screen">

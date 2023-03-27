@@ -39,12 +39,17 @@
     <div class="formcontainer">
       <form action="ContactPage" method="POST" class="newguestfrom">
         @csrf
-        <input type="text" id="name" name="username" placeholder="Your Name">
+        <div class="name" id="name">
+        <input type="text" id="name" name="fname" placeholder="First Name">
+        <input type="text" id="name" name="lname" placeholder="Last Name">
+        </div>
+     
     
         <input type="text" id="address" name="phonen" placeholder="Your Address">
   
         <input type="text" id="nguests" name="number_of_guests" placeholder="Number of Guests">
-    
+        <input type="text" id="phonen" name="email" placeholder="Email Address">
+      
         <input type="text" id="phonen" name="address" placeholder="Your Phone Number">
         <span style="font-size: 10px;color:red;display:none;margin-top:10px;" id="wrongentery">Please fill all the entries</span>
         <input type="submit" value="Submit">

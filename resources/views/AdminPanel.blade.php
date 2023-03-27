@@ -55,22 +55,8 @@
                 <input type="text" placeholder="Groom name" name="GroomName">
                 <input type="text" placeholder="Bride name" name="BrideName">   
             </div>
-            <div class="weddingdates"> 
-                <input type="text" placeholder="Day" name="Day">
-                <input type="text" placeholder="Month" name="Month">  
-                <input type="text" placeholder="Year" name="Year">  
-            </div>
-            <div class="imagesselecter">
-        
-            <label for="Groomimage">Select Groom image</label>
-            <input type="file" id="Groomimage" name="groomeimage" accept="image/*">
-            <label for="Brideimage">Select Bride image</label>
-            <input type="file" id="Brideimage" name="brideimage" accept="image/*">
-            <label for="files">Select images</label>
-            <input type="file" id="files" name="files" multiple accept="image/*"><br><br>
- 
-
-          </div>
+       
+         
        
           </div>
           <div class="dataentryformrgt">

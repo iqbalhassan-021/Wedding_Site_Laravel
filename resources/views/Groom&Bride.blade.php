@@ -12,8 +12,7 @@
       $bride[] = $item->BrideName;
       $textaboutGroom = $item->TextAboutGroom;
       $textaboutBride = $item->TextAboutBride;
-      $groomeimage = $item->groomeimage;
-      $brideimage = $item->brideimage;
+
   }
    // end($textaboutGroom);
    // end($textaboutBride);

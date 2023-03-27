@@ -16,11 +16,15 @@
     <link rel="stylesheet" href="/css/blog.css" media="screen">
     <link rel="stylesheet" href="/css/style.css" media="screen">
     <link rel="stylesheet" href="/css/auth.css" media="screen">
+   
     <link rel="stylesheet" href="/css/ContentPage.css" media="screen">
     <link rel="stylesheet" href="/css/Blog-Template.css" media="screen">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script class="u-script" type="text/javascript" src="/js/nav.js" "="" defer=""></script>
     <script class="u-script" type="text/javascript" src="/js/auth.js" "="" defer=""></script>
+   
+    <script class="u-script" type="text/javascript" src="/js/showGuests.js" "="" defer=""></script>
+   
     <meta name="generator" content="Nicepage 4.17.10, nicepage.com">
     <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
     <link id="u-page-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700|Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i">
@@ -36,7 +40,7 @@
             <input class="usr put" placeholder="Email or Username" type="text" name="username" id="user">
           <br>
             <input id="pass" class="pss put" placeholder="Password" type="password" name="password">
-          
+          <span class="wrong" id="wrong">Wrong Entry</span>
             <input value="Login" id="btn" class="sub" type="submit" onclick="auth()">
            <a href="{{url('/')}}"><button class="cancel">Cancel</button></a> 
               </div>

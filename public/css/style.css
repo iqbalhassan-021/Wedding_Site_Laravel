@@ -880,3 +880,29 @@ font-family: sans-serif;
 .hidden{
   display: none;
 }
+.newguestfrom{
+
+  width: 95%;
+}
+.formcontainer{
+  width: 95%; 
+}
+.name{
+
+  
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+
+}
+.name input[type=text]{
+  width: 40%;
+}
+.name input[type=text]:nth-child(2){
+  margin-left: 20px;
+}
+.wrong{
+  margin-top: 10px;
+  color: red;
+  display: none;
+}

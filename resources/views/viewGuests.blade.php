@@ -12,7 +12,9 @@
     ?>
     <title><?php echo end($CoupleName);?></title>
     <script class="u-script" type="text/javascript" src="/js/nav.js"></script>
-    <script class="u-script" type="text/javascript" src="/js/auth.js" "="" defer=""></script>
+
+    <script class="u-script" type="text/javascript" src="/js/showGuests.js" "="" defer=""></script>
+  
     <link rel="stylesheet" href="/css/blog.css" media="screen">
     <link rel="stylesheet" href="/css/ContentPage.css" media="screen">
     <link rel="stylesheet" href="/css/style.css" media="screen">
@@ -48,18 +50,21 @@
   
 <table id="guests">
   <tr>
-    <th>Name</th>
+    <th>First name</th>
+    <th>Last name</th>
     <th>Address</th>
     <th>Contact</th>
     <th>No of guests</th>
+    <th>Email</th>
   </tr>
   @foreach($guestlist as $glist)
   <tr>
-    <td>{{$glist->username}}</td>
+    <td>{{$glist->fname}}</td>
+    <td>{{$glist->lname}}</td>
     <td>{{$glist->address}}</td>
     <td>{{$glist->phonen}}</td>
     <td>{{$glist->number_of_guests}}</td>
-  
+    <td>{{$glist->email}}</td>
   </tr>
   @endforeach
 </table>

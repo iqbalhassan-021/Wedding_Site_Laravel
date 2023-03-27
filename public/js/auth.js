@@ -1,4 +1,4 @@
-document.getElementById('newGuests').style.display="none";
+
 document.getElementById('adminsection').style.display="none";
 
 function auth(){
@@ -12,12 +12,8 @@ function auth(){
     document.getElementById('adminsection').style.display="block";
     document.getElementById('adminloginsection').style.display="none";
     }
-    else if(user=="user"&&pass=="user47"){
-        document.getElementById('newGuests').style.display="block";
-        document.getElementById('adminloginsection').style.display="none";
-    }
     else{
-    alert('Wrong entry!!');
+        document.getElementById('wrong').style.display="block";
     }
 
 }
