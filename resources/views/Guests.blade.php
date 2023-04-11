@@ -23,7 +23,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Great+Vibes&display=swap" rel="stylesheet">
   </head>
   <body>
-  @include('AuthenticationForm')
+  @include('LoginFormForUser')
   @include('viewGuests')
 </body>
 </html>

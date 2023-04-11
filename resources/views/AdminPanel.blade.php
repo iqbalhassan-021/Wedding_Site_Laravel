@@ -49,12 +49,14 @@
             @csrf
           <div class="dataentryformlft">
             <input type="text" placeholder="Couplename" name="CoupleName">
-            <input type="text" placeholder="Wedding Destination" name="WeddingDestinatoin" style="margin-top: 10px;">
-            
+             
             <div class="names"> 
                 <input type="text" placeholder="Groom name" name="GroomName">
                 <input type="text" placeholder="Bride name" name="BrideName">   
             </div>
+            <input type="text" placeholder="Wedding Destination" name="WeddingDestinatoin" style="margin-top: 10px;">
+            <input type="text" placeholder="Getting There" name="GettingThere" style="margin-top: 10px;">
+         
        
          
        

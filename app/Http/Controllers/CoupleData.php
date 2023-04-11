@@ -19,6 +19,7 @@ class CoupleData extends Controller
         $newcouple->DATE = $req->DATE;
         $newcouple->Proposal = $req->Proposal;
         $newcouple->WeddingDestinatoin = $req->WeddingDestinatoin;
+        $newcouple->GettingThere = $req->GettingThere;
 
        
         $newcouple->save();

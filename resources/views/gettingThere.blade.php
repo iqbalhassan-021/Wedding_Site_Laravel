@@ -1,11 +1,20 @@
 <!DOCTYPE html>
-<html style="font-size: 16px;" lang="en"><head>
+<html style="font-size: 16px;" lang="en">
+<head>
+<?php
+    foreach($list as $item){
+      $GettingThere[] = $item->GettingThere;
+  }
+    
+    ?>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.00, maximum-scale=2.00, minimum-scale=1.00" user-scalable=no">
     <meta name="keywords" content="Couple name, WE ARE GETTING MARRIED, Couple name, WE ARE GETTING MARRIED, couple name, 72, 100, 87, Photoshoots, Join us on ourBig Day">
     <meta name="description" content="">
-    <title></title>
+    <title>
+
+    </title>
     <link rel="stylesheet" href="/css/nicepage.css" media="screen">
     <link rel="stylesheet" href="/css/ContentPage.css" media="screen">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -24,6 +33,6 @@
   <span>________________________</span>
     <h1  class="stylishfont">Getting There</h1>
     <span>________________________</span>
-    <p> Walled City of Lahore, Pakistan, just opposite to the Alamgiri Gate of the Lahore Fort. The Hazuri Bagh separates the mosque and the fort. On the Eastern side of the garden is one of the thirteen gates of Lahore, The Roshnai Gate.</p>
+    <p><?php echo end($GettingThere);?></p>
 </div>
   </body></html>
