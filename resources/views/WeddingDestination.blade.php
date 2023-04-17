@@ -31,7 +31,7 @@
           <div class="u-layout" style="">
             <div class="u-layout-row" style="">
               <div class="u-container-style u-layout-cell u-left-cell u-size-30 u-size-xs-60 u-layout-cell-1" src="">
-                <div class="u-container-layout u-valign-middle u-container-layout-1" style="text-align:center ;background-image:url('/images/pngwing.com.png');background-size:cover;background-repeat:no-repeat;background-position:center;">
+                <div class="u-container-layout u-valign-middle u-container-layout-1" style="text-align:center ;background-image:url('/images/FlowersBG .png');background-size:cover;background-repeat:no-repeat;background-position:center;">
                   <h2 class="u-align-center u-text u-text-default u-text-1 stylishfont">Wedding Destination</h2>
                   <p class="u-align-center u-text u-text-2"><?php echo end($dest);?></p>
                   <a href="#" class="" data-animation-name="customAnimationIn" data-animation-duration="1000" style="color:#50C878;">learn more</a>

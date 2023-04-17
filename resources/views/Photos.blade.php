@@ -26,7 +26,7 @@
           <div class="u-gallery-inner u-gallery-inner-1">
             <div class="u-effect-fade u-effect-hover-zoom u-gallery-item">
               <div class="u-back-slide u-back-slide-1" data-image-width="1080" data-image-height="1080">
-                <img class="u-back-image u-expanded" src="/images/219d1b50fca115af3483e350ecbbdb14.jpg">
+                <img class="u-back-image u-expanded" src="/images/GridPhoto1.jpg">
               </div>
               <div class="u-over-slide u-shading u-over-slide-1">
                 <h3 class="u-gallery-heading"></h3>
@@ -35,7 +35,7 @@
             </div>
             <div class="u-effect-fade u-effect-hover-zoom u-gallery-item">
               <div class="u-back-slide u-back-slide-2" data-image-width="440" data-image-height="300">
-                <img class="u-back-image u-expanded" src="/images/img-5.jpg">
+                <img class="u-back-image u-expanded" src="/images/SliderImage2.jpg">
               </div>
               <div class="u-over-slide u-shading u-over-slide-2">
                 <h3 class="u-gallery-heading"></h3>
@@ -44,7 +44,7 @@
             </div>
             <div class="u-effect-fade u-effect-hover-zoom u-gallery-item">
               <div class="u-back-slide u-back-slide-3" data-image-width="1920" data-image-height="1013">
-                <img class="u-back-image u-expanded" src="/images/asdrubal-luna-Fp5v1bp_0JI-unsplash.jpg">
+                <img class="u-back-image u-expanded" src="/images/SliderImage1.jpg">
               </div>
               <div class="u-over-slide u-shading u-over-slide-3">
                 <h3 class="u-gallery-heading"></h3>
@@ -53,7 +53,7 @@
             </div>
             <div class="u-effect-fade u-effect-hover-zoom u-gallery-item">
               <div class="u-back-slide u-back-slide-4" data-image-width="1280" data-image-height="1920">
-                <img class="u-back-image u-expanded" src="/images/pexels-dimitri-kuliuk-3350335.jpg">
+                <img class="u-back-image u-expanded" src="/images/GridPhoto4.jpg">
               </div>
               <div class="u-over-slide u-shading u-over-slide-4">
                 <h3 class="u-gallery-heading"></h3>
@@ -62,7 +62,7 @@
             </div>
             <div class="u-effect-fade u-effect-hover-zoom u-gallery-item">
               <div class="u-back-slide u-back-slide-5" data-image-width="3095" data-image-height="4643">
-                <img class="u-back-image u-expanded" src="/images/pexels-jonathan-borba-3014856.jpg">
+                <img class="u-back-image u-expanded" src="/images/GridPhoto5.jpg">
               </div>
               <div class="u-over-slide u-shading u-over-slide-5">
                 <h3 class="u-gallery-heading"></h3>
@@ -71,7 +71,7 @@
             </div>
             <div class="u-effect-fade u-effect-hover-zoom u-gallery-item">
               <div class="u-back-slide u-back-slide-6" data-image-width="667" data-image-height="370">
-                <img class="u-back-image u-expanded" src="/images/umbria_wedding_photos_14.jpg">
+                <img class="u-back-image u-expanded" src="/images/ProposalIMG.jpg">
               </div>
               <div class="u-over-slide u-shading u-over-slide-6">
                 <h3 class="u-gallery-heading"></h3>
@@ -80,7 +80,7 @@
             </div>
             <div class="u-effect-fade u-effect-hover-zoom u-gallery-item">
               <div class="u-back-slide u-back-slide-7" data-image-width="720" data-image-height="490">
-                <img class="u-back-image u-expanded" src="/images/img-1.jpg">
+                <img class="u-back-image u-expanded" src="/images/FirstMeeting.jpg">
               </div>
               <div class="u-over-slide u-shading u-over-slide-7">
                 <h3 class="u-gallery-heading"></h3>
@@ -89,7 +89,7 @@
             </div>
             <div class="u-effect-fade u-effect-hover-zoom u-gallery-item">
               <div class="u-back-slide u-back-slide-8" data-image-width="1000" data-image-height="667">
-                <img class="u-back-image u-expanded" src="/images/photo-1438761681033-6461ffad8d80.jpeg">
+                <img class="u-back-image u-expanded" src="/images/GridPhoto6.jpg">
               </div>
               <div class="u-over-slide u-shading u-over-slide-8">
                 <h3 class="u-gallery-heading"></h3>

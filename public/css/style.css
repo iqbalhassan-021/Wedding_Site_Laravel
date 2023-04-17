@@ -73,7 +73,7 @@
     width: 100px;
     background-color: black;
     border-radius: 200px;
-    background-image: url("/images/photo-1485206412256-701ccc5b93ca.jpeg");
+    background-image: url("/images/GroomsImaage.jpeg");
     background-position: 50% 50%;
     background-size: cover;
 }
@@ -84,7 +84,7 @@
     width: 100px;
     background-color: black;
     border-radius: 200px;
-    background-image: url("/images/dsc09518.jpeg");
+    background-image: url("/images/BridesImage.jpeg");
     background-position: 50% 50%;
     background-size: cover;
 }
@@ -141,7 +141,7 @@
     height: 60%;
     width: 60%;
     background-color: black;
-    background-image: url("/images/dfg-min.jpg");
+    background-image: url("/images/ContactUsBG.jpg");
     background-position: 50% 50%;
     background-size: cover;
     border-radius: 220px;
@@ -332,7 +332,7 @@
     height: 100vh;
     width: 100%;
   
-    background-image: url("/images/pngwing.com.png");
+    background-image: url("/images/FlowersBG .png");
     background-position: 50% 50%;
     background-size: cover;
     display: flex;
@@ -354,7 +354,7 @@
     height: 100%;
     width: 50%;
     
-    background-image: url("/images/dfg-min.jpg");
+    background-image: url("/images/ContactUsBG.jpg");
     background-position: 50% 50%;
     background-size: cover;
   }
@@ -363,7 +363,7 @@
     width: 50%;
     background-color: white;
   
-    background-image: url("/images/pngwing.com.png");
+    background-image: url("/images/FlowersBG .png");
     background-position: 50% 50%;
     background-size: cover;
     display: flex;
@@ -421,12 +421,12 @@
   flex-direction: column;
 }
 .contactfromleft{
-  background-image: url("/images/dfg-min.jpg");
+  background-image: url("/images/ContactUsBG.jpg");
   background-position: 50% 50%;
   background-size: cover;
 }
 .contactformright{
-  background-image: url("/images/pngwing.com.png");
+  background-image: url("/images/FlowersBG .png");
   background-position: 50% 50%;
   background-size: cover;
 }

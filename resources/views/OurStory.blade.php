@@ -21,21 +21,21 @@
   <div class="timeline" id="timeline">
     <div class="timecontainer lineleft">
       <div class="timecontent">
-        <img src="/images/img-1.jpg" alt="">
+        <img src="/images/FirstMeeting.jpg" alt="">
         <h2  class="stylishfont">First Met</h2>
         <p><?php echo $firstMet?></p>
       </div>
     </div>
     <div class="timecontainer lineright">
       <div class="timecontent">
-      <img src="/images/img-3.jpg" alt="">
+      <img src="/images/FirstDate.jpg" alt="">
         <h2  class="stylishfont">First Date</h2>
         <p><?php echo $fdate?></p>
       </div>
     </div>
     <div class="timecontainer lineleft">
       <div class="timecontent">
-      <img src="/images/img-5.jpg" alt="">
+      <img src="/images/ProposalIMG.jpg" alt="">
         <h2  class="stylishfont">Proposal</h2>
         <p><?php echo $proposal?></p>
       </div>

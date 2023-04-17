@@ -51,7 +51,7 @@
   <div id="OurStory">
   @include('OurStory')
   </div>
-
+  @include('footer')
   <script>
     document.getElementById('Photos').style.display='none';
     document.getElementById('OurStory').style.display='none';

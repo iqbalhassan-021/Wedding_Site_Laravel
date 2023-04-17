@@ -20,7 +20,7 @@
 }
 
 .u-section-1 .u-image-1 {
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("/images/asdrubal-luna-Fp5v1bp_0JI-unsplash.jpg");
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("/images/SliderImage1.jpg");
   background-position: 50% 50%;
 }
 
@@ -60,7 +60,7 @@
 }
 
 .u-section-1 .u-image-2 {
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("/images/umbria_wedding_photos_14.jpg");
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("/images/SliderImage2.jpg");
   background-position: 50% 50%;
 }
 
@@ -197,7 +197,7 @@
 
 .u-section-2 .u-image-1 {
   min-height: 409px;
-  background-image: url("/images/photo-1485206412256-701ccc5b93ca.jpeg");
+  background-image: url("/images/GroomsImaage.jpeg");
   background-position: 50% 50%;
 }
 
@@ -291,7 +291,7 @@
 
 .u-section-3 .u-image-1 {
   min-height: 409px;
-  background-image: url("/images/dsc09518.jpeg");
+  background-image: url("/images/BridesImage.jpeg");
   background-position: 50% 50%;
 }
 
@@ -378,7 +378,7 @@
     min-height: 366px;
   }
 } .u-section-4 {
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("/images/img-5.jpg");
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("/images/ProposalIMG.jpg");
   background-position: 50% 50%;
 }
 
@@ -982,7 +982,7 @@
 
 .u-section-7 .u-image-1 {
   min-height: 431px;
-  background-image: url("/images/dfg-min.jpg");
+  background-image: url("/images/FlowersBG .png");
   background-position: 50% 50%;
   --animation-custom_in-translate_x: 0px;
   --animation-custom_in-translate_y: 0px;
@@ -1570,7 +1570,7 @@ margin-left: -45px;
   
   height: 50vh;
   
-  background-image: url("/images/pngwing.com.png");
+  background-image: url("/images/FlowersBG .png");
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1672,3 +1672,8 @@ margin-left: -45px;
     font-family: 'Great Vibes', cursive;
 
   }
+.u-container-layout-2{
+  background-image: url("/images/ContactUsBG.jpg");
+  background-position: 50% 50%;
+  background-size: cover;
+}
